@@ -4,26 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="FONT/css/all.min.css">   
+
     <title>Forside</title>
 </head>
 <body>
 
-    <img id="Logo1" src="img/logo1.png" alt="Logo for nettsiden">
+    <a href="index.html">
+        <img id="Logo1" src="img/logo1.png" alt="Logo for nettsiden">
+    </a>
+
     <nav id="navigation_bar">
         <ul>
-            <li><a href="Home">Home</a></li>
-            <li><a href="Portfolio">Portfolio</a></li>
-            <li><a href="About">About</a></li>
-            <li><a href="Contact">Contact</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="a">Contact</a></li>
         </ul>
     </nav>
 
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+            <source src="img/mountains.mp4" type="video/mp4">
+        </video>
     
     <header>
         <h1>Compeling headline</h1>
         <p id="Header_Text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet finibus erat. Nunc scelerisque, mi eget congue vulputate, enim elit faucibus elit, ac convallis tortor lacus non orci.</p>
-        <a id="Read_more" href="#">Read more about our services</a>
+        <a id="Read_more_services" href="about.html">Read more about our services</a>
     </header>
+    </div>
     
     <main>
         <section id="sub-heading">
@@ -35,7 +45,8 @@
             <img id="Default_img" src="img/400x400.svg" alt="Grått bilde som visualiserer hva som kunne ha vært der">
             <h2>About Our Company</h2>
             <p>Fusce fringilla nec sapien sed dapibus. Integer consectetur gravida rutrum. Nullam euismod efficitur justo, quis tincidunt nunc varius eu. Etiam odio ipsum, tincidunt lacinia venenatis vitae, egestas at nisi. Fusce vel interdum libero, ac fermentum metus. Phasellus quis interdum sem. Duis in lobortis felis.</p>
-            <h3>Read more about us</h3>
+            <a id="Read_more_us" href="about.html">Read more about us</a>
+
         </section>
 
         <section id="Our services">
@@ -58,13 +69,21 @@
     </main>
 
     <footer>
-        <section>
-            <img id="Logo1" src="img/logo1.png" alt="Logo for nettsiden">
-            <h3>Company copyright 2023</h3>
-            <p>Legg til facebook icon som er lenket</p>
-            <p>Legg til instagram som er lenket</p>
-            <p>Legg til linkdin icon som er lenket</p>
-        </section>
+        <h3>Company copyright 2023</h3>
+    
+        <div id="SOME">
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-square-facebook"></i>
+            </a>
+    
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+    
+            <a href="https://no.linkedin.com/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
     </footer>
     
 </body>
