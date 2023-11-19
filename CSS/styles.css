@@ -1,44 +1,44 @@
 /* Alle sidene start */
 
-#navigation_bar ul {
+.navigation_bar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
     
-#navigation_bar li {
+.navigation_bar li {
     display: inline-block;
     margin-right: 10px;
 }
     
-#navigation_bar li a {
+.navigation_bar li a {
     text-decoration: none;
     color: black;
 }
 
-#navigation_bar #Contact{
+.navigation_bar #Contact{
     background-color: #e6bd43; 
     padding: 10px; 
-    color: black; 
+    color: #000; 
     display: inline-block;
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
 
-#navigation_bar{
+.navigation_bar{
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
 }
 
 
-#SOME a{
+.SOME a{
     text-decoration: none;
-    color: black; 
+    color: #000; 
 }
 
-#Snarvei{
+.Snarvei{
     text-decoration: none;
-    color: black; 
+    color: #000; 
 }
 
 h1, h2, h3 {
@@ -49,7 +49,11 @@ h1, h2, h3 {
 p{
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
-    color: #252525;
+    color: #000;
+}
+
+.long_img{
+    height: 200px;
 }
 /* Alle sidene slutt */
 
@@ -60,7 +64,7 @@ p{
 /* Forside start */
 
 /* Body */
-#navigation_bar #Home{
+.navigation_bar #Home{
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
@@ -68,12 +72,14 @@ p{
 /* Main */
 
 #Read_more_us{
-    border: 3px solid black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+    border: 3px solid #000;
     font-size: 15px;
     padding: 10px;
     display: inline-block;
     text-decoration: none;
-    color: black; 
+    color: #000; 
 }
 
 #video-background{
@@ -83,7 +89,7 @@ p{
 
 #Read_more_services{
     text-decoration: none;
-    color: black; 
+    color: #000; 
     background-color: #e6bd43;
     padding: 10px; 
     display: inline-block; 
@@ -93,7 +99,7 @@ p{
 
 #Sign_up_button{
     text-decoration: none;
-    color: black; 
+    color: #000; 
     background-color: #e6bd43; 
     padding: 10px; 
     display: inline-block;
@@ -111,14 +117,14 @@ p{
 /* About side start*/
 
 /* Body */
-#navigation_bar #About{
+.navigation_bar #About{
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
 
-#info_box_About a#Get_in_touch {
+#info_box_About #Get_in_touch {
     text-decoration: none;
-    color: black; 
+    color: #000; 
     background-color: #e6bd43;
     padding: 10px; 
     display: inline-block; 
@@ -140,7 +146,7 @@ p{
 #Send_message{
     background-color: #e6bd43; 
     padding: 10px; 
-    color: black; 
+    color: #000; 
     display: inline-block;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
@@ -158,28 +164,28 @@ p{
 /* Portfolio side start*/
 
 /* Body */
-#navigation_bar #Portfolio{
+.navigation_bar #Portfolio{
     font-family: 'Work Sans', sans-serif;
     font-weight: 800;
 }
 
 /* Main */
 #Branding{
-    border: 1px solid black;
+    border: 1px solid #000;
     font-size: 15px;
     padding: 10px;
     display: inline-block;
 }
 
 #Design{
-    border: 1px solid black;
+    border: 1px solid #000;
     font-size: 15px;
     padding: 10px;
     display: inline-block;
 }
 
 #Development{
-    border: 1px solid black;
+    border: 1px solid #000;
     font-size: 15px;
     padding: 10px;
     display: inline-block;
@@ -187,14 +193,14 @@ p{
 
 #List_of_Jobs a{
     text-decoration: none;
-    color: black; 
+    color: #000; 
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
 }
 
 #Read_more_us a{
     text-decoration: none;
-    color: black; 
+    color: #000; 
 }
 
 /* Footer */
@@ -253,10 +259,9 @@ p{
 #Branding{
     border: 1px solid black;
     font-size: 15px;
+}
+
 
 /* Footer */
 
 /* Portfolio side slutt*/
-
-
-}
