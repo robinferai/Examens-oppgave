@@ -49,6 +49,7 @@ h1, h2, h3 {
 p{
     font-family: 'Work Sans', sans-serif;
     font-weight: 200;
+    color: #252525;
 }
 /* Alle sidene slutt */
 
@@ -96,6 +97,8 @@ p{
     background-color: #e6bd43; 
     padding: 10px; 
     display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 /* Footer */
 
@@ -139,6 +142,9 @@ p{
     padding: 10px; 
     color: black; 
     display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
 }
 
 /* Footer */
@@ -182,6 +188,8 @@ p{
 #List_of_Jobs a{
     text-decoration: none;
     color: black; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
 }
 
 #Read_more_us a{
