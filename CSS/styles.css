@@ -16,7 +16,40 @@
     color: black;
 }
 
+#navigation_bar #Contact{
+    background-color: #e6bd43; 
+    padding: 10px; 
+    color: black; 
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
 
+#navigation_bar{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
+
+
+#SOME a{
+    text-decoration: none;
+    color: black; 
+}
+
+#Snarvei{
+    text-decoration: none;
+    color: black; 
+}
+
+h1, h2, h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 200;
+}
 /* Alle sidene slutt */
 
 
@@ -26,9 +59,14 @@
 /* Forside start */
 
 /* Body */
+#navigation_bar #Home{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
 
 /* Main */
-#Read_more_services{
+
+#Read_more_us{
     border: 3px solid black;
     font-size: 15px;
     padding: 10px;
@@ -42,9 +80,22 @@
  width: 50px;
 }
 
-#Read_more_us{
+#Read_more_services{
     text-decoration: none;
     color: black; 
+    background-color: #e6bd43;
+    padding: 10px; 
+    display: inline-block; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#Sign_up_button{
+    text-decoration: none;
+    color: black; 
+    background-color: #e6bd43; 
+    padding: 10px; 
+    display: inline-block;
 }
 /* Footer */
 
@@ -57,12 +108,38 @@
 /* About side start*/
 
 /* Body */
+#navigation_bar #About{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
 #info_box_About a#Get_in_touch {
     text-decoration: none;
     color: black; 
+    background-color: #e6bd43;
+    padding: 10px; 
+    display: inline-block; 
+
+}
+
+#Get_in_touch{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
 }
 
 /* Main */
+#Client_logos{
+    background-color: #e6bd43; 
+    padding: 10px; 
+}
+ 
+
+#Send_message{
+    background-color: #e6bd43; 
+    padding: 10px; 
+    color: black; 
+    display: inline-block;
+}
 
 /* Footer */
 
@@ -75,6 +152,10 @@
 /* Portfolio side start*/
 
 /* Body */
+#navigation_bar #Portfolio{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
 
 /* Main */
 #Branding{

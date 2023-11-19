@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="stylesheet" href="FONT/css/all.min.css">   
-    
-
+    <link rel="stylesheet" href="FONT/css/all.min.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+   
     <title>Forside</title>
 </head>
 <body>
-
+<section id="Font_form">
     <a href="index.html">
         <img id="Logo1_meny" src="img/logo1.png" alt="Logo for nettsiden">
     </a>
 
     <nav id="navigation_bar">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a id="Home" href="index.html">Home</a></li>
             <li><a href="Portfolio.html">Portfolio</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="about.html#Contact_us">Contact</a></li>
-
+            <li><a id="Contact" href="about.html#Contact_us">Contact</a></li>
         </ul>
     </nav>
 
@@ -75,10 +76,11 @@
         <section id="Sign_up">
             <h2>Sign up for our newsletter</h2>
             <input type="text" id="username" >
-            <p>Sign me up</p>
+            <a id="Sign_up_button" href="#">Sign me up</a>
+
         </section>
 
-        <a href="index.html#Header"><i class="fa-solid fa-square-caret-up"></i></a>
+        <a id="Snarvei" href="index.html#Header"><i class="fa-solid fa-square-caret-up"></i></a>
 
     </main>
 
@@ -86,7 +88,7 @@
         <a href="index.html">
             <img id="Logo1_footer" src="img/logo1.png" alt="Logo for nettsiden">
         </a>
-        
+
         <h3>Company copyright 2023</h3>
     
         <div id="SOME">
@@ -102,6 +104,7 @@
                 <i class="fa-brands fa-linkedin"></i>
             </a>
         </div>
+    </section>
     </footer>
     
 </body>
