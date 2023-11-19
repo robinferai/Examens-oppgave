@@ -1,19 +1,22 @@
 /* Alle sidene start */
-ul {
+
+#navigation_bar ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
-
-li {
+    
+#navigation_bar li {
     display: inline-block;
-    margin-right: 10px; 
+    margin-right: 10px;
+}
+    
+#navigation_bar li a {
+    text-decoration: none;
+    color: black;
 }
 
-li a {
-    text-decoration: none;
-    color: black; 
-}
+
 /* Alle sidene slutt */
 
 
@@ -22,54 +25,14 @@ li a {
 
 /* Forside start */
 
-/* Forside Slutt */
+/* Body */
 
-
-
-
-
-/* About side start*/
-
-/* About side slutt */
-
-
-
-
-
-/* Produkt side start*/
-
-/* Produkt side slutt*/
-
-
-
-
-
-@media only screen and (min-width:500px){
-
-/* Alle sidene start */
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    display: inline-block;
-    margin-right: 10px; 
-}
-
-li a {
-    text-decoration: none;
-    color: black; 
-}
-/* Alle sidene slutt */
-
-
-
-
-
-/* Forside start */
+/* Main */
 #Read_more_services{
+    border: 3px solid black;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
     text-decoration: none;
     color: black; 
 }
@@ -83,6 +46,8 @@ li a {
     text-decoration: none;
     color: black; 
 }
+/* Footer */
+
 /* Forside Slutt */
 
 
@@ -91,15 +56,118 @@ li a {
 
 /* About side start*/
 
+/* Body */
+#info_box_About a#Get_in_touch {
+    text-decoration: none;
+    color: black; 
+}
+
+/* Main */
+
+/* Footer */
+
 /* About side slutt */
 
 
 
 
 
-/* Produkt side start*/
+/* Portfolio side start*/
 
-/* Produkt side slutt*/
+/* Body */
+
+/* Main */
+#Branding{
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#Design{
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#Development{
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#List_of_Jobs a{
+    text-decoration: none;
+    color: black; 
+}
+
+#Read_more_us a{
+    text-decoration: none;
+    color: black; 
+}
+
+/* Footer */
+
+/* Portfolio side slutt*/
+
+
+
+
+
+
+
+@media only screen and (min-width:500px){
+
+/* Alle sidene start */
+
+/* Alle sidene slutt */
+
+
+
+
+
+/* Forside start */
+
+/* Body */
+
+/* Main */
+
+/* Footer */
+
+/* Forside Slutt */
+
+
+
+
+
+/* About side start*/
+
+/* Body */
+
+/* Main */
+
+/* Footer */
+
+/* About side slutt */
+
+
+
+
+
+/* Portfolio side start*/
+
+/* Body */
+
+/* Main */
+#Branding{
+    border: 1px solid black;
+    font-size: 15px;
+
+/* Footer */
+
+/* Portfolio side slutt*/
 
 
 }
