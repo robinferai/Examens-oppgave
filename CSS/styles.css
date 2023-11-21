@@ -1,194 +1,84 @@
-/* Alle sidene start */
-
-.navigation_bar ul {
-    list-style-type: none;
-    padding: 0;
+body {
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
 }
-    
-.navigation_bar li {
+
+p {
+    font-weight: 200;
+    color: #252525;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "meny" "header" "main" "footer"; /* Menu, Header, Main, Footer */
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+.meny {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: meny;
+}
+
+.meny img {
+    max-width: 100px; /* Adjust as needed */
+}
+
+.meny #Contact {
+    background-color: #e6bd43;
+    padding: 10px;
+    color: #000;
     display: inline-block;
-    margin-right: 10px;
-}
-    
-.navigation_bar li a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
     text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-weight: 800;
     color: black;
 }
 
-.navigation_bar #Contact{
-    background-color: #e6bd43; 
-    padding: 10px; 
-    color: #000; 
-    display: inline-block;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+nav ul li {
+    margin-right: 20px;
 }
 
-.navigation_bar{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black;
 }
 
-
-.SOME a{
-    text-decoration: none;
-    color: #000; 
+header {
+    padding: 20px;
+    text-align: center;
+    grid-area: header;
 }
 
-.Snarvei{
-    text-decoration: none;
-    color: #000; 
+.long_img {
+    max-width: 100%; /* Adjust as needed */
+    height: auto;
 }
 
-h1, h2, h3 {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+header h1 {
+    margin-bottom: 10px;
 }
 
-p{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    color: #000;
+#Header_Text {
+    color: #252525;
 }
 
-.long_img{
-    height: 200px;
-}
-/* Alle sidene slutt */
-
-
-
-
-
-/* Forside start */
-
-/* Body */
-.navigation_bar #Home{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
+video {
+    width: 100%;
 }
 
-/* Main */
-
-#Read_more_us{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 200;
-    border: 3px solid #000;
-    font-size: 15px;
-    padding: 10px;
-    display: inline-block;
-    text-decoration: none;
-    color: #000; 
-}
-
-#video-background{
- height: 50px;
- width: 50px;
-}
-
-#Read_more_services{
-    text-decoration: none;
-    color: #000; 
-    background-color: #e6bd43;
-    padding: 10px; 
-    display: inline-block; 
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-
-#Sign_up_button{
-    text-decoration: none;
-    color: #000; 
-    background-color: #e6bd43; 
-    padding: 10px; 
-    display: inline-block;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-/* Footer */
-
-/* Forside Slutt */
-
-
-
-
-
-/* About side start*/
-
-/* Body */
-.navigation_bar #About{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-}
-
-#info_box_About #Get_in_touch {
-    text-decoration: none;
-    color: #000; 
-    background-color: #e6bd43;
-    padding: 10px; 
-    display: inline-block; 
-
-}
-
-#Get_in_touch{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-}
-
-/* Main */
-#Client_logos{
-    background-color: #e6bd43; 
-    padding: 10px; 
-}
- 
-
-#Send_message{
-    background-color: #e6bd43; 
-    padding: 10px; 
-    color: #000; 
-    display: inline-block;
-    text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-}
-
-/* Footer */
-
-/* About side slutt */
-
-
-
-
-
-/* Portfolio side start*/
-
-/* Body */
-.navigation_bar #Portfolio{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 800;
-}
-
-/* Main */
-#Branding{
-    border: 1px solid #000;
-    font-size: 15px;
-    padding: 10px;
-    display: inline-block;
-}
-
-#Design{
-    border: 1px solid #000;
-    font-size: 15px;
-    padding: 10px;
-    display: inline-block;
-}
-
-#Development{
-    border: 1px solid #000;
-    font-size: 15px;
-    padding: 10px;
-    display: inline-block;
+main {
+    padding: 20px;
+    grid-area: main;
 }
 
 #List_of_Jobs a{
@@ -196,72 +86,89 @@ p{
     color: #000; 
     font-family: 'Open Sans', sans-serif;
     font-weight: 200;
-}
-
-#Read_more_us a{
-    text-decoration: none;
-    color: #000; 
-}
-
-/* Footer */
-
-/* Portfolio side slutt*/
-
-
-
-
-
-
-
-@media only screen and (min-width:500px){
-
-/* Alle sidene start */
-
-/* Alle sidene slutt */
-
-
-
-
-
-/* Forside start */
-
-/* Body */
-
-/* Main */
-
-/* Footer */
-
-/* Forside Slutt */
-
-
-
-
-
-/* About side start*/
-
-/* Body */
-
-/* Main */
-
-/* Footer */
-
-/* About side slutt */
-
-
-
-
-
-/* Portfolio side start*/
-
-/* Body */
-
-/* Main */
-#Branding{
-    border: 1px solid black;
+    border: 1px solid #000;
     font-size: 15px;
+    padding: 10px;
+    display: inline-block;
 }
 
+#sub-heading,
+#About_our_Company,
+#Our_services,
+#Sign_up {
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000;
+}
 
-/* Footer */
+#Default_img {
+    max-width: 100%;
+}
 
-/* Portfolio side slutt*/
+#Read_more_us,
+#Read_more_services,
+#Sign_up_button {
+    display: inline-block;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 800;
+    color: #000;
+}
+
+#Our_services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+#Our_services i {
+    font-size: 2em;
+}
+
+#Sign_up {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+}
+
+footer p {
+    color: #fff;
+}
+
+.Logo1_footer {
+    max-width: 100px; /* Adjust as needed */
+    margin-bottom: 20px;
+}
+
+.SOME a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.Snarvei {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Snarvei i {
+    font-size: 1.5em;
+}
+
+/* Your additional styles here */
