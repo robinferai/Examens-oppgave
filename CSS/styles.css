@@ -23,6 +23,21 @@ p {
     grid-area: meny;
 }
 
+.meny #Home{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+.meny #About{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
+.meny #Portfolio{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+}
+
 .meny img {
     max-width: 100px; /* Adjust as needed */
 }
@@ -109,6 +124,7 @@ main {
 
 #Read_more_us,
 #Read_more_services,
+#Get_in_touch,
 #Sign_up_button {
     display: inline-block;
     background-color: #e6bd43;
