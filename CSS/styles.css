@@ -14,7 +14,7 @@
     
     .grid-container {
         display: grid;
-        grid-template-areas: "meny" "header" "main" "footer"; /* Menu, Header, Main, Footer */
+        grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
         grid-template-rows: auto auto 1fr auto;
         min-height: 100vh;
     }
@@ -85,7 +85,7 @@
 
     .Header_box{
         position: relative;
-        top: 100px;
+        top: 70px;
     }
 
     p{
@@ -99,11 +99,15 @@
     }
     
     header h1 {
-        margin-bottom: 10px;
+        font-size: 45px; 
+        font-weight: bold;
     }
     
     #Header_Text {
         color: #252525;
+        margin-top: 30px
+
+        
     }
     
     .video-container {
@@ -115,34 +119,121 @@
       z-index: -1; 
       }
       
-      video {
+    video {
         width: 100vw; /* Stretch the video to the full viewport width */
-        height: 25rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
         object-fit: cover;
-      }
-    
-    main {
+    }
+
+    #sub-header {
+        grid-area: sub-header;
         padding: 20px;
-        grid-area: main;
-        margin-top: 300px
+        text-align: center;
     }
 
     #sub-heading, h2{
-        width: 400px;
+        width: 500px;
         margin: 0 auto;
+        text-align: center;
+        font-size: 30px; 
+        font-weight: bold;
+        margin-top: 120px
+
     }
 
     #sub-heading, p{
-        position: relative;
         text-align: center;
         max-width: 100%;
         margin: auto;
         width: 900px;
-       
+        margin-top: 40px;
+        font-size: 20px; 
 
     }
     
+    
+    main {
+        padding: 20px;
+        grid-area: main;
+        margin-top: 800px
+    }
 
+    #About_our_Company{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        right: 0;
+        background-color: #e6bd43;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 31.4rem;
+        margin-top: 650px
+
+    }
+
+    #Default_img_1{
+        margin-top: 40px
+
+    }
+
+    #About_our_Company h2{
+        font-size: 20px;
+        margin-top: -350px;
+        margin-left: 300px
+
+    }
+
+    #About_our_Company p{
+        width: 700px;
+        padding: 20px;
+        text-align: justify;
+        margin-left: 430px;
+    }
+
+    #About_our_Company #Read_more_us {
+    }
+
+    #Read_more_us{
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: bold;
+        border: 2px solid black; 
+        padding: 10px 20px;
+        margin-left: 450px;
+    }
+
+    
+
+    #Our_services {
+        
+    }
+
+    #Our_services h2 {
+        text-align: center;
+        margin-top: -180px;
+        margin-left: 370px;
+        
+    }
+
+    #Our_services_Ikoner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -404px;
+        font-size: 13px;
+
+    }
+
+    #Our_services  p{
+        width: 300px;
+        margin-left: -370px;
+
+    }
+
+ 
     
     #List_of_Jobs a{
         text-decoration: none;
@@ -182,6 +273,7 @@
         font-weight: 800;
         color: #000;
     }
+
     
     #Our_services {
         display: grid;
