@@ -32,16 +32,22 @@
     .meny #Home{
         font-family: 'Work Sans', sans-serif;
         font-weight: 800;
+        border-bottom: 3px solid #e6bd43;
+
     }
     
     .meny #About{
         font-family: 'Work Sans', sans-serif;
         font-weight: 800;
+        border-bottom: 3px solid #e6bd43;
+
     }
     
     .meny #Portfolio{
         font-family: 'Work Sans', sans-serif;
         font-weight: 800;
+        border-bottom: 3px solid #e6bd43;
+
     }
     
     .meny img {
@@ -58,7 +64,14 @@
         font-weight: 800;
         text-decoration: none;
         bottom: 5px;
+        
     }
+
+    .meny #Contact:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
     
     nav ul {
         list-style: none;
@@ -85,7 +98,7 @@
 
     .Header_box{
         position: relative;
-        top: 70px;
+        top: 25px;
     }
 
     p{
@@ -105,7 +118,7 @@
     
     #Header_Text {
         color: #252525;
-        margin-top: 30px
+        margin-top: 13px
 
         
     }
@@ -155,8 +168,13 @@
     main {
         padding: 20px;
         grid-area: main;
-        margin-top: 800px
+
     }
+
+    body#index-page1 main {
+        margin-top: 800px;
+    }
+
 
     #About_our_Company{
         position: absolute;
@@ -189,10 +207,9 @@
         padding: 20px;
         text-align: justify;
         margin-left: 430px;
+        margin-top: 10px;
     }
 
-    #About_our_Company #Read_more_us {
-    }
 
     #Read_more_us{
         display: inline-block;
@@ -218,6 +235,13 @@
         
     }
 
+    #Our_services h3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -48px;
+        
+    }
+
     #Our_services_Ikoner{
         display: flex;
         flex-direction: row;
@@ -229,8 +253,9 @@
 
     #Our_services  p{
         width: 300px;
-        margin-left: -370px;
-
+        margin-left: -180px;
+        font-size: 20px;
+        margin-top: 80px;
     }
 
  
@@ -256,6 +281,7 @@
         text-decoration: none;
         color: #000;
     }
+
     
     #Default_img {
         max-width: 100%;
@@ -264,6 +290,7 @@
     #Read_more_us,
     #Read_more_services,
     #Get_in_touch,
+    #Send_message,
     #Sign_up_button {
         display: inline-block;
         background-color: #e6bd43;
@@ -274,7 +301,31 @@
         color: #000;
     }
 
-    
+    #Get_in_touch:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Get_in_touch:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Read_more_services:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Read_more_us:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Sign_up_button:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
     #Our_services {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
