@@ -141,17 +141,16 @@
         text-align: center;
     }
 
-    #sub-heading, h2{
+    #sub-heading h2{
         width: 500px;
-        margin: 0 auto;
-        text-align: center;
         font-size: 30px; 
         font-weight: bold;
-        margin-top: 120px
-
+        text-align: center;
+        margin-top: 11.4rem;
+        margin-left: 23.5rem;
     }
 
-    #sub-heading, p{
+    #sub-heading p{
         text-align: center;
         max-width: 100%;
         margin: auto;
@@ -194,7 +193,7 @@
     #About_our_Company h2{
         font-size: 20px;
         margin-top: -350px;
-        margin-left: 300px
+        margin-left: 450px
 
     }
 
@@ -203,35 +202,24 @@
         padding: 20px;
         text-align: justify;
         margin-left: 430px;
-        margin-top: 10px;
+        margin-top: -1.3rem;
     }
 
-
-    #Read_more_us{
-        display: inline-block;
-        color: black;
-        text-decoration: none;
-        margin-top: 10px;
-        font-weight: bold;
-        border: 2px solid black; 
-        padding: 10px 20px;
-        margin-left: 450px;
-    }
 
     
 
     #Our_services h2 {
         text-align: center;
-        margin-top: -115px;
-        margin-left: 28rem;
+        margin-top: -12rem;
+        margin-left: 25.5rem;
+        width: 400px;
         
     }
 
     #Our_services h3 {
         text-align: center;
         margin-top: 40px;
-        margin-left: -48px;
-        
+        margin-left: -102px;        
     }
 
     #Our_services_Ikoner{
@@ -240,13 +228,14 @@
         justify-content: space-between;
         margin-left: -450px;
         font-size: 13px;
-        margin-top: -10px;
+        margin-top: -7rem;
 
     }
 
+
     #Our_services  p{
         width: 300px;
-        margin-left: -180px;
+        margin-left: -186px;
         margin-top: 80px;
     }
 
@@ -291,6 +280,18 @@
         margin-top: 10px;
         font-weight: 800;
         color: #000;
+    }
+
+
+    #Read_more_us{
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        border: 2px solid black; 
+        padding: 10px 20px;
+        margin-left: 450px;
+        margin-top: -1.3rem;
     }
 
     #Read_more_services{
@@ -353,21 +354,20 @@
 
 
     #username {
-        border: none;
+       border: none;
         width: 169.7px;
         height: 34px;
-        position: absolute;
-        top: 6.7rem;
-        left: 36rem;
+        position: relative;
+        top: 0.5rem;
     }
 
    
 
     #Sign_up_button {
-        position: absolute; 
+       position: relative;
         height: 17px;
-        right: 34.7rem;
-        top: 6rem;
+        right: 0.1rem;
+        top: 0.4rem;
     }
 
     
@@ -381,8 +381,16 @@
         height: 7rem;
     }
     
+    .SOME{
+        display: flex;
+        margin-left: 71rem; 
+        font-size: 20px;
+        margin-top: -2.4rem;
+    }
+
     footer p {
         color: #fff;
+        margin-top: 3rem;
     }
     
     .Logo1_footer {
@@ -392,11 +400,7 @@
         left: 1rem;
     }
 
-    .SOME{
-        margin-left: 75rem;
-        font-size: 20px;
-        margin-top: -35px;
-    }
+    
     
     .SOME a {
         color: #fff;
