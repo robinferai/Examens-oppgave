@@ -78,50 +78,7 @@
         border-bottom: 3px solid #e6bd43;
 
     }
-    
-    
-    .meny #Contact {
-        position: relative;
-        background-color: #e6bd43;
-        padding: 10px;
-        color: #000;
-        display: inline-block;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        bottom: 5px;
-        
-    }
 
-    .meny #Contact:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Get_in_touch:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Get_in_touch:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Read_more_services:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Read_more_us:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Sign_up_button:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
 
     .long_img {
         position: absolute; /* Chat GPT */
@@ -153,12 +110,10 @@
         margin-left: 2rem;
     }
 
-  
 
-    #Read_more_us,
-    #Read_more_services,
     #Get_in_touch,
-    #Send_message,
+    #Read_more_services,
+    #Read_more_us,
     #Sign_up_button {
         display: inline-block;
         background-color: #e6bd43;
@@ -168,14 +123,12 @@
         font-weight: 800;
         color: #000;
     }
-
     
 
     #Read_more_services{
         margin-top: -0.5rem;
     }
     
-  
     
     .video-container {
         position: absolute; /* Chat GPT */
@@ -264,7 +217,7 @@
         margin-left: 8rem;
     }
    
-    #Our_services #Ikoner{
+    #Ikoner{
         margin-left: 11.5rem;
         font-size: 2rem;
         margin-top: 1rem;
@@ -701,6 +654,7 @@
         font-weight: 800;
         color: #000;
     }
+    
 
 
     #Read_more_us{
