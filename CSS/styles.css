@@ -104,13 +104,23 @@
 
     
     .long_img {
-        max-width: 100%; /* Adjust as needed */
-        height: auto;
+        position: absolute; /* Chat GPT */
+        top: 9rem;
+        left: 0;
+        width: 100%;
+        height: 350px;
+        z-index: -1; 
     }
-    
+
+   
     header h1 {
         font-size: 45px; 
         font-weight: bold;
+    }
+
+    #Portfolio_overskrift{
+        margin-top: 8.7rem;
+
     }
     
     #Header_Text {
@@ -122,11 +132,11 @@
     
     .video-container {
         position: absolute; /* Chat GPT */
-      top: 9rem;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1; 
+        top: 9rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
       }
       
     video {
@@ -166,9 +176,36 @@
 
     }
 
-    body#index-page1 main {
+    body#index-page main {
         margin-top: 800px;
     }
+
+    body#Portfolio-page main{
+        margin-top: 100px;
+    }
+
+    #Explore{
+        font-size: 40px;
+        margin-top:1rem;
+    }
+
+    #Branding{
+        font-size: 40px;
+    }
+
+    #Branding_img{
+        display: flex;
+        height: 350px;
+        width: 350px;
+    }
+     .img_text{
+        margin-top: 22.6rem;
+    }
+
+    #Large_img1{
+        margin-top: 7rem;
+    }
+
 
 
     #About_our_Company{
@@ -243,14 +280,16 @@
     
     #List_of_Jobs a{
         text-decoration: none;
-        color: #000; 
+        color: #000;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
         border: 1px solid #000;
         font-size: 15px;
-        padding: 10px;
+        padding: 4px;
         display: inline-block;
+        margin-right: 6px;
     }
+    
     
     #sub-heading,
     #About_our_Company,
@@ -385,9 +424,9 @@
         display: flex;
         margin-left: 71rem; 
         font-size: 20px;
-        margin-top: -2.4rem;
+        margin-top: -2.3rem;
     }
-
+    
     footer p {
         color: #fff;
         margin-top: 3rem;
