@@ -1,4 +1,458 @@
 
+    body {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    p {
+        font-weight: 200;
+        color: #252525;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
+        grid-template-rows: auto auto 1fr auto;
+        min-height: 100vh;
+    }
+    
+    .meny ul {
+        margin-top: 10px; 
+        list-style: none; 
+        padding: 0; 
+    }
+    
+    .meny li {
+        margin-bottom: 20px;
+    }
+    
+    .meny img {
+        max-width: 100px; 
+        margin-bottom: 10px; 
+    }
+    
+    .meny a {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        margin-bottom: 20px; 
+        text-decoration: none; 
+        color: black; 
+    }
+    
+    .meny #Contact {
+        position: relative;
+        background-color: #e6bd43;
+        padding: 10px;
+        color: #000;
+        display: inline-block;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        bottom: 5px;
+    }
+    
+    .meny #Home{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        border-bottom: 3px solid #e6bd43;
+
+    }
+    
+    .meny #About{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        border-bottom: 3px solid #e6bd43;
+
+    }
+    
+    .meny #Portfolio{
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        border-bottom: 3px solid #e6bd43;
+
+    }
+    
+    
+    .meny #Contact {
+        position: relative;
+        background-color: #e6bd43;
+        padding: 10px;
+        color: #000;
+        display: inline-block;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        bottom: 5px;
+        
+    }
+
+    .meny #Contact:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    
+    
+    header {
+        padding: 20px;
+        text-align: center;
+        grid-area: header;
+        margin-top: 30rem;
+        
+    }
+
+    .Header_box{
+        position: relative;
+        top: -35rem;
+    }
+
+    
+    .long_img {
+        position: absolute; /* Chat GPT */
+        top: 9rem;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        z-index: -1; 
+    }
+
+   
+    header h1 {
+        font-weight: bold;
+        width: 10rem;
+    }
+
+    #Portfolio_overskrift{
+        margin-top: 8.7rem;
+
+    }
+    
+    #Header_Text {
+        color: #252525;
+        margin-top: 13px
+        
+    }
+    
+    .video-container {
+        position: absolute; /* Chat GPT */
+        top: 9rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+      }
+      
+    video {
+        width: 100vw; /* Stretch the video to the full viewport width */
+        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+        object-fit: cover;
+    }
+
+    #sub-header {
+        grid-area: sub-header;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #sub-heading h2{
+        width: 500px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 11.4rem;
+        margin-left: 23.5rem;
+    }
+
+    #sub-heading p{
+        text-align: center;
+        max-width: 100%;
+        margin: auto;
+        width: 900px;
+        margin-top: 40px;
+
+    }
+    
+    
+    main {
+        padding: 20px;
+        grid-area: main;
+
+    }
+
+    body#index-page main {
+        margin-top: 800px;
+    }
+
+    body#Portfolio-page main{
+        margin-top: 100px;
+    }
+
+    #Explore{
+        margin-top:1rem;
+    }
+
+
+    #Branding_img{
+        display: flex;
+        height: 350px;
+        width: 350px;
+    }
+     .img_text{
+        margin-top: 22.6rem;
+    }
+
+    #Large_img1{
+        margin-top: 7rem;
+    }
+
+
+
+    #About_our_Company{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        right: 0;
+        background-color: #e6bd43;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 31.4rem;
+        margin-top: 650px
+
+    }
+
+    #Default_img_1{
+        margin-top: 40px
+
+    }
+
+    #About_our_Company h2{
+        margin-top: -350px;
+        margin-left: 450px
+
+    }
+
+    #About_our_Company p{
+        width: 700px;
+        padding: 20px;
+        text-align: justify;
+        margin-left: 430px;
+        margin-top: -1.3rem;
+    }
+
+
+    #Our_services h2 {
+        text-align: center;
+        margin-top: -12rem;
+        margin-left: 32rem;
+        width: 400px;
+        font-size: 40px;
+        
+    }
+
+    #Our_services h3 {
+        text-align: center;
+        margin-top: 40px;
+        margin-left: -102px;        
+    }
+
+    #Our_services_Ikoner{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: -450px;
+        margin-top: -7rem;
+
+    }
+
+
+    #Our_services  p{
+        width: 300px;
+        margin-left: -186px;
+        margin-top: 80px;
+    }
+
+ 
+    
+    #List_of_Jobs a{
+        text-decoration: none;
+        color: #000;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        border: 1px solid #000;
+        padding: 4px;
+        display: inline-block;
+        margin-right: 6px;
+    }
+    
+    
+    #sub-heading,
+    #About_our_Company,
+    #Our_services,
+    #Sign_up {
+        margin-bottom: 20px;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        color: #000;
+    }
+
+    
+    #Default_img {
+        max-width: 100%;
+    }
+    
+    #Read_more_us,
+    #Read_more_services,
+    #Get_in_touch,
+    #Send_message,
+    #Sign_up_button {
+        display: inline-block;
+        background-color: #e6bd43;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: 800;
+        color: #000;
+    }
+
+
+    #Read_more_us{
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        border: 2px solid black; 
+        padding: 10px 20px;
+        margin-left: 450px;
+        margin-top: -1.3rem;
+    }
+
+    #Read_more_services{
+    margin-top: 25px;   
+ }
+
+    #Get_in_touch:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Get_in_touch:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Read_more_services:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Read_more_us:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Sign_up_button:hover{
+        background-color: #252525;
+        color: #e6bd43;
+    }
+
+    #Our_services {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+    }
+    
+
+
+    #Sign_up {
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 800;
+    color: #000;
+    height: 12rem;
+    top: 105.4rem;
+    }
+
+    #Sign_up, h2{
+        margin-top: 59px;
+    }
+
+
+    #username {
+       border: none;
+        width: 169.7px;
+        height: 34px;
+        position: relative;
+        top: 0.5rem;
+    }
+
+   
+
+    #Sign_up_button {
+       position: relative;
+        height: 17px;
+        right: 0.1rem;
+        top: 0.4rem;
+    }
+
+    
+    footer {
+        background-color: #333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        grid-area: footer;
+        margin-top: 250px;
+        height: 7rem;
+    }
+    
+    .SOME{
+        display: flex;
+        margin-left: 71rem; 
+        margin-top: -2.3rem;
+    }
+    
+    footer p {
+        color: #fff;
+        margin-top: 3rem;
+    }
+    
+    .Logo1_footer {
+        max-width: 100px; 
+        margin-bottom: 20px;
+        position: absolute;
+        left: 1rem;
+    }
+
+    
+    
+    .SOME a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+    
+    .Snarvei {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+    
+    .Snarvei i {
+        font-size: 1.5em;
+    }
+    
+    /* Your additional styles here */
+    
 
 
 @media only screen and (min-width:600px){
@@ -94,42 +548,10 @@
         padding: 20px;
         text-align: center;
         grid-area: header;
+        margin-top: 6rem;
         
     }
 
-    .Header_box{
-        position: relative;
-        top: 25px;
-    }
-
-    
-    .long_img {
-        position: absolute; /* Chat GPT */
-        top: 9rem;
-        left: 0;
-        width: 100%;
-        height: 350px;
-        z-index: -1; 
-    }
-
-   
-    header h1 {
-        font-size: 45px; 
-        font-weight: bold;
-    }
-
-    #Portfolio_overskrift{
-        margin-top: 8.7rem;
-
-    }
-    
-    #Header_Text {
-        color: #252525;
-        margin-top: 13px
-
-        
-    }
-    
     .video-container {
         position: absolute; /* Chat GPT */
         top: 9rem;
@@ -145,10 +567,40 @@
         object-fit: cover;
     }
 
+    header h1 {
+        font-size: 45px; 
+        font-weight: bold;
+        width: 27rem;
+        margin-left: 30rem;
+    }
+
+    .Header_box{
+        position: relative;
+        top: -6rem;
+    }
+
+    #Header_Text {
+        color: #252525;
+        margin-top: 13px;
+        width: 55rem;
+        margin-left: 16.5rem;
+    }
+
+    
+    .long_img {
+        position: absolute; /* Chat GPT */
+        top: 9rem;
+        left: 0;
+        width: 100%;
+        height: 350px;
+        z-index: -1; 
+    }
+
     #sub-header {
         grid-area: sub-header;
         padding: 20px;
         text-align: center;
+        margin-top: 40rem;
     }
 
     #sub-heading h2{
@@ -156,8 +608,8 @@
         font-size: 30px; 
         font-weight: bold;
         text-align: center;
-        margin-top: 11.4rem;
-        margin-left: 23.5rem;
+        margin-top: 1rem;
+        margin-left: 29rem;
     }
 
     #sub-heading p{
@@ -165,10 +617,18 @@
         max-width: 100%;
         margin: auto;
         width: 900px;
-        margin-top: 40px;
+        margin-top: 3rem;
+    }
+    
+
+   
+
+    #Portfolio_overskrift{
+        margin-top: 8.7rem;
 
     }
     
+
     
     main {
         padding: 20px;
@@ -198,7 +658,8 @@
         height: 350px;
         width: 350px;
     }
-     .img_text{
+
+    .img_text{
         margin-top: 22.6rem;
     }
 
@@ -246,17 +707,20 @@
     
 
     #Our_services h2 {
-        text-align: center;
-        margin-top: -12rem;
-        margin-left: 25.5rem;
-        width: 400px;
+        #Our_services h2 {
+            text-align: center;
+            margin-top: -12rem;
+            margin-left: 25.5rem;
+            width: 400px;
+            font-size: 40px;
+        }
         
     }
 
     #Our_services h3 {
         text-align: center;
         margin-top: 40px;
-        margin-left: -102px;        
+        margin-left: -118px;        
     }
 
     #Our_services_Ikoner{
@@ -334,7 +798,8 @@
     }
 
     #Read_more_services{
-    margin-top: 25px;    }
+    margin-top: 25px; 
+    }
 
     #Get_in_touch:hover{
         background-color: #252525;
@@ -384,7 +849,7 @@
     font-weight: 800;
     color: #000;
     height: 12rem;
-    top: 105.4rem;
+    top: 105rem;
     }
 
     #Sign_up, h2{
@@ -461,7 +926,5 @@
     .Snarvei i {
         font-size: 1.5em;
     }
-    
-    /* Your additional styles here */
     
 }
