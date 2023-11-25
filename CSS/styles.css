@@ -15,11 +15,16 @@
         grid-template-rows: auto auto 1fr auto;
         min-height: 100vh;
     }
+
+    .meny{
+        margin-top: 1.5rem;
+    }
     
     .meny ul {
-        margin-top: 10px; 
+        margin-top: -2px; 
         list-style: none; 
         padding: 0; 
+        margin-left: 11.3rem;
     }
     
     .meny li {
@@ -29,6 +34,7 @@
     .meny img {
         max-width: 100px; 
         margin-bottom: 10px; 
+        margin-left: 9.6rem;
     }
     
     .meny a {
@@ -49,6 +55,7 @@
         font-weight: 800;
         text-decoration: none;
         bottom: 5px;
+        margin-left: -0.6rem;
     }
     
     .meny #Home{
@@ -91,246 +98,6 @@
         color: #e6bd43;
     }
 
-    
-    
-    header {
-        padding: 20px;
-        text-align: center;
-        grid-area: header;
-        margin-top: 30rem;
-        
-    }
-
-    .Header_box{
-        position: relative;
-        top: -35rem;
-    }
-
-    
-    .long_img {
-        position: absolute; /* Chat GPT */
-        top: 9rem;
-        left: 0;
-        width: 100%;
-        height: 100px;
-        z-index: -1; 
-    }
-
-   
-    header h1 {
-        font-weight: bold;
-        width: 10rem;
-    }
-
-    #Portfolio_overskrift{
-        margin-top: 8.7rem;
-
-    }
-    
-    #Header_Text {
-        color: #252525;
-        margin-top: 13px
-        
-    }
-    
-    .video-container {
-        position: absolute; /* Chat GPT */
-        top: 9rem;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; 
-      }
-      
-    video {
-        width: 100vw; /* Stretch the video to the full viewport width */
-        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
-        object-fit: cover;
-    }
-
-    #sub-header {
-        grid-area: sub-header;
-        padding: 20px;
-        text-align: center;
-    }
-
-    #sub-heading h2{
-        width: 500px;
-        font-weight: bold;
-        text-align: center;
-        margin-top: 11.4rem;
-        margin-left: 23.5rem;
-    }
-
-    #sub-heading p{
-        text-align: center;
-        max-width: 100%;
-        margin: auto;
-        width: 900px;
-        margin-top: 40px;
-
-    }
-    
-    
-    main {
-        padding: 20px;
-        grid-area: main;
-
-    }
-
-    body#index-page main {
-        margin-top: 800px;
-    }
-
-    body#Portfolio-page main{
-        margin-top: 100px;
-    }
-
-    #Explore{
-        margin-top:1rem;
-    }
-
-
-    #Branding_img{
-        display: flex;
-        height: 350px;
-        width: 350px;
-    }
-     .img_text{
-        margin-top: 22.6rem;
-    }
-
-    #Large_img1{
-        margin-top: 7rem;
-    }
-
-
-
-    #About_our_Company{
-        position: absolute;
-        top: 200px;
-        left: 0;
-        right: 0;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 31.4rem;
-        margin-top: 650px
-
-    }
-
-    #Default_img_1{
-        margin-top: 40px
-
-    }
-
-    #About_our_Company h2{
-        margin-top: -350px;
-        margin-left: 450px
-
-    }
-
-    #About_our_Company p{
-        width: 700px;
-        padding: 20px;
-        text-align: justify;
-        margin-left: 430px;
-        margin-top: -1.3rem;
-    }
-
-
-    #Our_services h2 {
-        text-align: center;
-        margin-top: -12rem;
-        margin-left: 32rem;
-        width: 400px;
-        font-size: 40px;
-        
-    }
-
-    #Our_services h3 {
-        text-align: center;
-        margin-top: 40px;
-        margin-left: -102px;        
-    }
-
-    #Our_services_Ikoner{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: -450px;
-        margin-top: -7rem;
-
-    }
-
-
-    #Our_services  p{
-        width: 300px;
-        margin-left: -186px;
-        margin-top: 80px;
-    }
-
- 
-    
-    #List_of_Jobs a{
-        text-decoration: none;
-        color: #000;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 200;
-        border: 1px solid #000;
-        padding: 4px;
-        display: inline-block;
-        margin-right: 6px;
-    }
-    
-    
-    #sub-heading,
-    #About_our_Company,
-    #Our_services,
-    #Sign_up {
-        margin-bottom: 20px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        color: #000;
-    }
-
-    
-    #Default_img {
-        max-width: 100%;
-    }
-    
-    #Read_more_us,
-    #Read_more_services,
-    #Get_in_touch,
-    #Send_message,
-    #Sign_up_button {
-        display: inline-block;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        text-decoration: none;
-        margin-top: 10px;
-        font-weight: 800;
-        color: #000;
-    }
-
-
-    #Read_more_us{
-        display: inline-block;
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-        border: 2px solid black; 
-        padding: 10px 20px;
-        margin-left: 450px;
-        margin-top: -1.3rem;
-    }
-
-    #Read_more_services{
-    margin-top: 25px;   
- }
-
     #Get_in_touch:hover{
         background-color: #252525;
         color: #e6bd43;
@@ -356,50 +123,196 @@
         color: #e6bd43;
     }
 
-    #Our_services {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
+    .long_img {
+        position: absolute; /* Chat GPT */
+        top: 9rem;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        z-index: -1; 
     }
     
-
-
-    #Sign_up {
-    position: absolute;
-    box-sizing: border-box;
-    background-color: #e2e2e2;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-weight: 800;
-    color: #000;
-    height: 12rem;
-    top: 105.4rem;
+    header {
+        padding: 20px;
+        text-align: center;
+        grid-area: header;
+        margin-top: 14rem;
     }
 
+    header h1 {
+        width: 15rem;
+        margin-top: -14rem;
+        margin-left: 4.3rem;
+        font-size: 2rem;
+    }
+
+
+    #Header_Text {
+        color: #252525;
+        width: 20rem;
+        margin-left: 2rem;
+    }
+
+  
+
+    #Read_more_us,
+    #Read_more_services,
+    #Get_in_touch,
+    #Send_message,
+    #Sign_up_button {
+        display: inline-block;
+        background-color: #e6bd43;
+        padding: 10px 20px;
+        text-decoration: none;
+        margin-top: 10px;
+        font-weight: 800;
+        color: #000;
+    }
+
+    
+
+    #Read_more_services{
+        margin-top: -0.5rem;
+    }
+    
+  
+    
+    .video-container {
+        position: absolute; /* Chat GPT */
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+        top: 20rem
+    }
+      
+    video {
+        width: 100vw; /* Stretch the video to the full viewport width */
+        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+        object-fit: cover;
+
+    }
+
+    #Portfolio_overskrift{
+        margin-top: 8.7rem;
+
+    }
+
+    #sub-header {
+        grid-area: sub-header;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #sub-heading h2{
+        font-weight: bold;
+        text-align: center;
+        margin-top: 5rem;
+    }
+
+    #sub-heading p{
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 3.5rem;
+        width: 19rem;
+    }
+
+    #About_our_Company{
+        position: absolute;
+        top: 200px;
+        left: 0;
+        right: 0;
+        background-color: #e6bd43;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 58rem;
+        margin-top: 55rem;
+    }
+
+    #About_our_Company h2{
+        margin-left: 4.4rem;
+    }
+
+    #About_our_Company p{
+        margin-left: 7rem;
+        width: 10rem;
+    }
+
+    #Default_img_1{
+        width: 18rem;
+        height: auto;
+        margin-left: 2.1rem;
+        margin-top: 3rem;
+    }
+
+    #Read_more_us{
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        border: 2px solid black; 
+        padding: 10px 20px;
+        margin-left: 5.4rem;
+    }
+
+    #Our_services{
+        margin-top: 63rem;
+    }
+
+    #Our_services h2{
+        margin-left: 8rem;
+    }
+   
+    #Our_services #Ikoner{
+        margin-left: 11.5rem;
+        font-size: 2rem;
+        margin-top: 1rem;
+    }
+
+    #Our_services h3{
+        margin-left: 10.1rem;
+    }
+
+    #Our_services p{
+        margin-left: 6.6rem;
+        width: 18rem;
+    }
+
+    #Sign_up {
+        position: absolute;
+        box-sizing: border-box;
+        background-color: #e2e2e2;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-weight: 800;
+        color: #000;
+        height: 12rem;
+    }
+    
     #Sign_up, h2{
         margin-top: 59px;
     }
-
-
+    
+    
     #username {
-       border: none;
+        border: none;
         width: 169.7px;
         height: 34px;
         position: relative;
-        top: 0.5rem;
+        top: -1.2rem;
     }
-
-   
-
+    
+       
+    
     #Sign_up_button {
-       position: relative;
+        position: relative;
         height: 17px;
         right: 0.1rem;
-        top: 0.4rem;
+        top: -1rem;
     }
 
-    
     footer {
         background-color: #333;
         color: #ffffff;
@@ -407,25 +320,26 @@
         text-align: center;
         grid-area: footer;
         margin-top: 250px;
-        height: 7rem;
+        height: 15rem;
     }
     
     .SOME{
         display: flex;
-        margin-left: 71rem; 
-        margin-top: -2.3rem;
+        margin-left: 8rem; 
+        font-size: 20px;
+        margin-top: -1rem;
     }
     
     footer p {
         color: #fff;
-        margin-top: 3rem;
+        margin-top: 8rem;
     }
     
     .Logo1_footer {
         max-width: 100px; 
         margin-bottom: 20px;
         position: absolute;
-        left: 1rem;
+        left: 9.5rem;
     }
 
     
@@ -434,6 +348,7 @@
         color: #fff;
         margin: 0 10px;
         text-decoration: none;
+        margin-top: 2rem;
     }
     
     .Snarvei {
@@ -451,9 +366,6 @@
         font-size: 1.5em;
     }
     
-    /* Your additional styles here */
-    
-
 
 @media only screen and (min-width:600px){
     body {
@@ -507,6 +419,8 @@
     
     .meny img {
         max-width: 100px; /* Adjust as needed */
+        margin-top: -1.5rem;
+        margin-left: 1rem;
     }
     
     .meny #Contact {
@@ -568,10 +482,11 @@
     }
 
     header h1 {
-        font-size: 45px; 
+        font-size: 45px;
         font-weight: bold;
         width: 27rem;
-        margin-left: 30rem;
+        margin-left: 25rem;
+        margin-top: 1rem;
     }
 
     .Header_box{
@@ -583,7 +498,7 @@
         color: #252525;
         margin-top: 13px;
         width: 55rem;
-        margin-left: 16.5rem;
+        margin-left: 11.6rem;
     }
 
     
@@ -600,7 +515,6 @@
         grid-area: sub-header;
         padding: 20px;
         text-align: center;
-        margin-top: 40rem;
     }
 
     #sub-heading h2{
@@ -608,8 +522,8 @@
         font-size: 30px; 
         font-weight: bold;
         text-align: center;
-        margin-top: 1rem;
-        margin-left: 29rem;
+        margin-top: 3rem;
+        margin-left: 25rem;
     }
 
     #sub-heading p{
@@ -665,6 +579,7 @@
 
     #Large_img1{
         margin-top: 7rem;
+        
     }
 
 
@@ -679,19 +594,21 @@
         box-sizing: border-box;
         overflow: hidden;
         height: 31.4rem;
-        margin-top: 650px
+        margin-top: 42rem
 
     }
 
     #Default_img_1{
-        margin-top: 40px
+        width: 25rem;
+        height: auto;
+        margin-top: 2.7rem;
 
     }
 
     #About_our_Company h2{
         font-size: 20px;
-        margin-top: -350px;
-        margin-left: 450px
+        margin-top: -21rem;
+        margin-left: 30rem;
 
     }
 
@@ -699,23 +616,23 @@
         width: 700px;
         padding: 20px;
         text-align: justify;
-        margin-left: 430px;
+        margin-left: 28.7rem;
         margin-top: -1.3rem;
     }
 
 
     
 
+   
     #Our_services h2 {
-        #Our_services h2 {
-            text-align: center;
-            margin-top: -12rem;
-            margin-left: 25.5rem;
-            width: 400px;
-            font-size: 40px;
-        }
-        
+        text-align: center;
+        margin-top: -12rem;
+        margin-left: 25.5rem;
+        width: 400px;
+        font-size: 40px;
     }
+        
+    
 
     #Our_services h3 {
         text-align: center;
@@ -793,7 +710,7 @@
         font-weight: bold;
         border: 2px solid black; 
         padding: 10px 20px;
-        margin-left: 450px;
+        margin-left: 30rem;
         margin-top: -1.3rem;
     }
 
@@ -830,30 +747,36 @@
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         gap: 20px;
-    }
-    
-    #Our_services i {
         font-size: 2em;
+        margin-top: 1rem;
+
     }
+
+
+    #Our_services h2{
+        margin-left: 26rem;
+    }
+   
 
    
 
 
-    #Sign_up {
-    position: absolute;
-    box-sizing: border-box;
-    background-color: #e2e2e2;
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-weight: 800;
-    color: #000;
-    height: 12rem;
-    top: 105rem;
+  
+
+    #Our_services #Ikoner {
+        margin-left: 1rem;
+        font-size: 2rem;
+        margin-top: 1rem;
     }
 
-    #Sign_up, h2{
-        margin-top: 59px;
+    #Our_services h3{
+        margin-top: 4rem;
+        margin-left: -6.6rem;
+    }
+
+    #Our_services p{
+        margin-left: -12rem;
+        margin-top: 6rem;
     }
 
 
@@ -873,6 +796,23 @@
         right: 0.1rem;
         top: 0.4rem;
     }
+
+    #Sign_up {
+        position: absolute;
+        box-sizing: border-box;
+        background-color: #e2e2e2;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-weight: 800;
+        color: #000;
+        height: 12rem;
+        top: 107rem;
+        }
+    
+        #Sign_up, h2{
+            margin-top: 59px;
+        }
 
     
     footer {
