@@ -121,8 +121,6 @@
         margin-left: 4.5rem;
     }
 
-
-
     #List_of_Jobs a{
         position: relative;
         text-decoration: none;
@@ -138,32 +136,46 @@
     }
 
 
-    .separator1 {
-        border-top: 3px solid #e6bd43;
-        width: 20rem;
-        margin-left: 2.2rem;
-        margin-top: -0.6rem;
-    }
 
     #Branding{
         margin-left: 4.2rem;
     }
 
+
     #Branding_section h2{
         margin-left: 8.7rem;
     }
 
-    .separator2 {
-        border-top: 3px solid #e6bd43;
-        width: 20rem;
-        margin-left: 2.2rem;
-        margin-top: -0.6rem;
+
+    #Development_section h2{
+        margin-left: 4.2rem;
     }
+
+    #Design_section h2{
+        margin-left: 4.2rem;
+    }
+
+    .separator1, .separator2, .separator3, .separator4 {
+        display: block;
+        height: 3px;
+        background-color: #e6bd43;
+        width: 20rem;
+        margin-left: 2rem;
+      }
+
+
+
 
    .img_text{
     margin-left: 3.2rem;
     font-weight: bold;
-    
+}
+
+#Default_img_1{
+    width: 18rem;
+    height: auto;
+    margin-top: 2.7rem;
+    margin-left: 2rem;
 }
 
     #Default_img2 {
@@ -177,6 +189,13 @@
     #Defaul_img1{
         width: 2px;
         height: 2px;
+    }
+
+    #Large_img1{
+        width: 18rem;
+        height: auto;
+        margin-left: 3.2rem;
+        margin-top: 3rem;
     }
 
     #Get_in_touch,
@@ -256,15 +275,6 @@
         width: 10rem;
     }
 
-    #Default_img2{
-        width: 18rem;
-        height: auto;
-    }
-
-    #Large_img1{
-        width: 20rem;
-        height: auto;
-    }
 
     #Read_more_us{
         display: inline-block;
@@ -332,6 +342,16 @@
         right: 0.1rem;
         top: -1rem;
     }
+
+    body#Portfolio-page footer{
+        background-color: #333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        grid-area: footer;
+        margin-top: 1rem;
+        height: 15rem;
+      }
 
     footer {
         background-color: #333;
