@@ -169,21 +169,21 @@
    .img_text{
     margin-left: 3.2rem;
     font-weight: bold;
-}
+    }
 
-#Default_img_1{
+        #Default_img_1{
     width: 18rem;
     height: auto;
     margin-top: 2.7rem;
     margin-left: 2rem;
-}
+    }
 
     #Default_img2 {
         width: 18rem;
         height: auto;
         margin-left: 3.2rem;
         margin-top: 3rem;
-      }
+    }
 
 
     #Defaul_img1{
@@ -201,7 +201,8 @@
     #Get_in_touch,
     #Read_more_services,
     #Read_more_us,
-    #Sign_up_button {
+    #Sign_up_button,
+    #Send_message {
         display: inline-block;
         background-color: #e6bd43;
         padding: 10px 20px;
