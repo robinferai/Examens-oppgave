@@ -24,7 +24,7 @@
         margin-top: -2px; 
         list-style: none; 
         padding: 0; 
-        margin-left: 11.3rem;
+        margin-left: 10.5rem;
     }
     
     .meny li {
@@ -34,7 +34,7 @@
     .meny img {
         max-width: 100px; 
         margin-bottom: 10px; 
-        margin-left: 9.6rem;
+        margin-left: 9rem;
     }
     
     .meny a {
@@ -121,18 +121,57 @@
         margin-left: 4.5rem;
     }
 
+
+
     #List_of_Jobs a{
+        position: relative;
         text-decoration: none;
         color: #000;
         font-family: 'Open Sans', sans-serif;
         font-weight: 200;
         border: 1px solid #000;
         font-size: 15px;
-        padding: 4px;
-        display: inline-block;
-        margin-right: 6px;
+        padding: 6px;
+        margin-right: 8px; 
+        left: -3px;
+        top: 2rem;
     }
 
+
+    .separator1 {
+        border-top: 3px solid #e6bd43;
+        width: 20rem;
+        margin-left: 2.2rem;
+        margin-top: -0.6rem;
+    }
+
+    #Branding{
+        margin-left: 4.2rem;
+    }
+
+    #Branding_section h2{
+        margin-left: 8.7rem;
+    }
+
+    .separator2 {
+        border-top: 3px solid #e6bd43;
+        width: 20rem;
+        margin-left: 2.2rem;
+        margin-top: -0.6rem;
+    }
+
+   .img_text{
+    margin-left: 3.2rem;
+    font-weight: bold;
+    
+}
+
+    #Default_img2 {
+        width: 18rem;
+        height: auto;
+        margin-left: 3.2rem;
+        margin-top: 3rem;
+      }
 
 
     #Defaul_img1{
@@ -651,6 +690,8 @@
         display: inline-block;
         margin-right: 6px;
     }
+
+    
     
     
     #sub-heading,
