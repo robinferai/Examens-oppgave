@@ -2,6 +2,7 @@
     body {
         margin: 0;
         font-family: 'Open Sans', sans-serif;
+        background-color: #f4f4f4;
     }
     
     p {
@@ -304,7 +305,7 @@
 
     #Branding2{
         margin-left: 9rem;
-        margin-top: 10rem;
+        margin-top: 11rem;
     }
 
     #Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
@@ -323,17 +324,107 @@
     }
 
     #Client_logos{
-        position: relative;
+        position: absolute;
+        top: 82rem;
+        left: 0;
+        right: 0;
         background-color: #e6bd43;
-        padding: 10px;
-        color: #000;
-        display: inline-block;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        bottom: 5px;
-        margin-left: -0.6rem;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 34rem;
+        margin-top: 55rem;
+        
     }
+
+    #Client_logos h2{
+        margin-left: 4.2rem;
+        margin-top: 2.5rem;
+    }
+
+    #Client_Logo1, #Client_Logo2, #Client_Logo3{
+        width: 9rem; 
+        height: 9rem;
+        margin-top: 3rem;
+    }
+
+    #Client_Logo1{
+        margin-left: 0.5rem;
+    }
+
+    #Client_Logo2{
+        margin-left: 3rem;
+    }
+
+    #Client_Logo3{
+        margin-left: 6.6rem;
+        margin-top: 3rem;
+    }
+
+    #Send_message{
+        margin-top: -1rem;
+    }
+
+    
+    #Contact_us_pack{
+        margin-left: 2rem;
+    }
+
+    #Contact_us{
+        margin-top: 41.5rem;
+        margin-left: 6.5rem;
+    }
+
+    #username, #subject, #message{
+        margin-top: 1rem;
+    }
+
+    #username {
+        border: none;
+        width: 20.5rem;
+        height: 34px;
+        position: relative;
+        top: -1.2rem;
+    }
+
+    #subject {
+        border: none;
+        width: 20.5rem;
+        height: 34px;
+        position: relative;
+        top: -1.2rem;
+    }
+
+    #message {
+        border: none;
+        width: 20.5rem;
+        height: 10rem;
+        position: relative;
+        top: -1.2rem;
+    }
+
+    #Content_info{
+        margin-top: 4.5rem;
+    }
+
+    #Ikoner3{
+        display: flex;
+        gap: 0.5rem; /* Adjust the gap to reduce space between icons */
+        position: relative;
+        top: 5rem; 
+    }
+
+
+    #adresse_info{
+        position: relative;
+        top: -2.6rem;
+        left: 2rem;
+    }
+
+    #Kart{
+        margin-top: 10rem;
+    }
+    
 
     #About_our_Company{
         position: absolute;
@@ -406,16 +497,6 @@
     #Sign_up, h2{
         margin-top: 59px;
     }
-    
-    
-    #username {
-        border: none;
-        width: 169.7px;
-        height: 34px;
-        position: relative;
-        top: -1.2rem;
-    }
-    
        
     
     #Sign_up_button {
