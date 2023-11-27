@@ -57,6 +57,7 @@
         bottom: 5px;
         margin-left: -0.6rem;
     }
+
     
     .meny #Home{
         font-family: 'Work Sans', sans-serif;
@@ -273,7 +274,7 @@
         overflow: hidden;
         height: 53rem;
         width: 18rem;
-        margin-left: 3rem;
+        margin-left: 3.4rem;
         margin-top: -24.7rem;
     }
 
@@ -301,15 +302,37 @@
         font-size: 2rem;
     }
 
-
-   
     #Branding2{
         margin-left: 9rem;
-        margin-top: 40rem;
+        margin-top: 10rem;
     }
 
-    body #Branding main{
-        margin-top: 15rem;
+    #Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
+        font-size: 2rem;
+        margin-left: 2.3rem;
+        margin-top: 2rem;
+    }
+
+    #Brandingh3{
+        margin-left: 1rem;
+    }
+
+    #Brandingp_text{
+        width: 15rem;
+        margin-left: -2.4rem;
+    }
+
+    #Client_logos{
+        position: relative;
+        background-color: #e6bd43;
+        padding: 10px;
+        color: #000;
+        display: inline-block;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 800;
+        text-decoration: none;
+        bottom: 5px;
+        margin-left: -0.6rem;
     }
 
     #About_our_Company{
