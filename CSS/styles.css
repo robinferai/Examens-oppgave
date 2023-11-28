@@ -3,6 +3,7 @@
         margin: 0;
         font-family: 'Open Sans', sans-serif;
         background-color: #f4f4f4;
+        padding: 0;
     }
     
     p {
@@ -264,8 +265,8 @@
     }
 
     body#About-page main{
-        margin-top: 10rem;
         width: 20rem;
+        margin-top: 10rem;
     }
 
     #info_box_About {
@@ -314,11 +315,11 @@
         margin-top: 2rem;
     }
 
-    #Brandingh3{
+    .Brandingh3{
         margin-left: 1rem;
     }
 
-    #Brandingp_text{
+    .Brandingp_text{
         width: 15rem;
         margin-left: -2.4rem;
     }
@@ -387,6 +388,10 @@
         top: -1.2rem;
     }
 
+    body#index-page #username{
+        width: 10rem;
+    }
+
     #subject {
         border: none;
         width: 20.5rem;
@@ -409,22 +414,40 @@
 
     #Ikoner3{
         display: flex;
-        gap: 0.5rem; /* Adjust the gap to reduce space between icons */
         position: relative;
-        top: 5rem; 
-    }
+        margin-bottom: 0.8rem;
+        color: #252525;
+    } 
 
 
-    #adresse_info{
+    #adresse_info, #E-post{
+        margin-bottom: -0.7rem;
         position: relative;
-        top: -2.6rem;
         left: 2rem;
+        top: -5.8rem;
+        font-size: 16px;
     }
 
-    #Kart{
-        margin-top: 10rem;
+    #E-post{
+        color: blue;
+        text-decoration: underline;
     }
-    
+
+          
+    #Kart {
+        width: 100vw; /* Stretch the video to the full viewport width */
+        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+        object-fit: cover;
+      }
+      
+      .Kart-container {
+        position: relative; /* Chat GPT */
+        top: -2rem;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1; 
+      }
 
     #About_our_Company{
         position: absolute;
@@ -524,6 +547,16 @@
         margin-top: 250px;
         height: 15rem;
     }
+
+    body#About-page footer{
+        background-color: #333;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+        grid-area: footer;
+        height: 15rem;
+        margin-top: -7.3rem
+      }
     
     .SOME{
         display: flex;
