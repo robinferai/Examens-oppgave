@@ -619,7 +619,7 @@ body#index-page #username{
     margin-top: 4.5rem;
 }
 
-#Ikoner3{
+.Ikoner3_1, .Ikoner3_2, .Ikoner3_3{
     display: flex;
     position: relative;
     margin-bottom: 0.8rem;
@@ -627,7 +627,7 @@ body#index-page #username{
 } 
 
 
-#adresse_info, #E-post{
+.adresse_info, #E-post{
     margin-bottom: -0.7rem;
     position: relative;
     left: 2rem;
