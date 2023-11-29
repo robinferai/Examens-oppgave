@@ -99,7 +99,7 @@
         width: 100%;
         height: 59rem;
         z-index: -1; 
-        height: 59.5rem;
+        height: 50rem;
     }
 
     #Portfolio_overskrift {
@@ -202,12 +202,33 @@
         height: 2px;
     }
 
-    #Large_img1{
+    #Large_img1, #Large_img2, #Large_img3{
         width: 18rem;
         height: auto;
         margin-left: 3.2rem;
         margin-top: 3rem;
     }
+
+    #About-page header h1 {
+        position: absolute;
+        width: 19rem;
+        font-size: 3rem;
+        top: 44rem;
+        Left: 5rem;
+    }
+
+    #img_text_1,
+    #img_text_2, 
+    #img_text_3, 
+    #img_text_4, 
+    #img_text_5, 
+    #img_text_6, 
+    #img_text_7, 
+    #img_text_8, 
+    #img_text_9{
+        margin-left: 3.1rem;
+    }
+
 
     #Get_in_touch,
     #Read_more_services,
@@ -267,7 +288,7 @@
 
     body#About-page main{
         width: 20rem;
-        margin-top: 10rem;
+        margin-top: 7rem;
     }
 
     #info_box_About {
@@ -275,10 +296,10 @@
         padding: 10px 20px;
         box-sizing: border-box;
         overflow: hidden;
-        height: 53rem;
+        height: 44rem;
         width: 18rem;
         margin-left: 3.4rem;
-        margin-top: -24.7rem;
+        margin-top: -22rem;
     }
 
     #info_box_About p{
@@ -296,13 +317,13 @@
         width: 9rem;
         margin-left: 2rem;
     }
-
+    
     #About-page header h1 {
         position: absolute;
-        width: 15rem;
-        margin-top: 45rem;
-        margin-left: 3.8rem;
-        font-size: 2rem;
+        width: 19rem;
+        font-size: 3rem;
+        top: 86rem;
+        Left: -1.5rem;
     }
 
     #Branding2{
@@ -313,15 +334,65 @@
     #Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
         font-size: 2rem;
         margin-left: 2.3rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
+        margin-bottom: 8rem;
+        width: 5rem;
     }
 
     .Brandingh3{
         margin-left: 1rem;
+        margin-top: -17.4rem;
+    }
+
+    #Brandingh3_1{
+        margin-top: -46rem;
+        margin-left: 0.9rem;
+    }
+
+    #Brandingh3_2{
+        margin-top: 11.3rem;
+        margin-left: 0.9rem;
+    }
+
+    #Brandingh3_3{
+        margin-left: 0.9rem;
+        margin-top: 11.6rem;
+    }
+
+    #Brandingh3_4{
+        margin-top: 11.5rem;
+        margin-left: 0.9rem;
+    }
+
+    #Brandingp_text_1{
+        margin-top: -39rem;
+        width: 13rem;
+        text-align: center;
+        margin-left: -3rem;
+    }
+
+    #Brandingp_text_2{
+        margin-top: 10rem;
+        width: 13rem;
+        text-align: center;
+        margin-left: -3rem;
+    }
+
+    #Brandingp_text_3{
+        margin-top: 10.5rem;
+        width: 13rem;
+        text-align: center;
+        margin-left: -3rem;
+    }
+    #Brandingp_text_4{
+        margin-top: 10.4rem;
+        width: 13rem;
+        text-align: center;
+        margin-left: -3rem;
     }
 
     .Brandingp_text{
-        width: 15rem;
+        width: 13rem;
         margin-left: -2.4rem;
     }
 
@@ -373,12 +444,28 @@
     }
 
     #Contact_us{
-        margin-top: 41.5rem;
+        margin-top: 44rem;
         margin-left: 6.5rem;
     }
 
     #username, #subject, #message{
         margin-top: 1rem;
+    }
+
+    #username {
+        border: none;
+        width: 20.5rem;
+        height: 34px;
+        position: relative;
+        top: -1.2rem;
+    }
+
+    #subject {
+        border: none;
+        width: 20.5rem;
+        height: 34px;
+        position: relative;
+        top: -1.2rem;
     }
 
     #username {
@@ -442,7 +529,7 @@
         object-fit: cover;
       }
       
-      .Kart-container {
+    .Kart-container {
         position: relative; /* Chat GPT */
         top: -2rem;
         left: 0;
@@ -755,7 +842,7 @@
         height: 27rem;
         width: 45rem;
         margin-left: 31rem;
-        margin-top: -17.4rem;
+        margin-top: -14.4rem;
       }
 
       #info_box_About h3{
@@ -765,7 +852,7 @@
       #info_box_About p {
         width: 42rem;
         margin-left: 1rem;
-    }      
+    }    
       
 
       #About-page .long_img {
@@ -776,6 +863,14 @@
         height: 33rem; /* Adjust this value as needed */
         z-index: -1; 
     }
+
+    #About-page header h1 {
+        position: absolute;
+        width: 19rem;
+        font-size: 3rem;
+        top: 45rem;
+        Left: 6rem;
+      }
 
     #sub-header {
         grid-area: sub-header;
@@ -840,8 +935,16 @@
 
     #Branding_img{
         display: flex;
+        margin-top: 1rem;
     }
 
+    #Branding_section h2 {
+        margin-left: 1.4rem;
+        font-size: 2.5rem;
+        position: relative;
+        top: 1.6rem;
+        margin-top: 5rem;
+      }
     
     #Default_img1, #Default_img2, #Default_img3, #Default_img4, #Default_img5, #Default_img6  {
         width: 383px;
@@ -852,10 +955,57 @@
 
    
 
-    .img_text{
+    #img_text_1{
         position: absolute;
-        margin-top: 22.6rem;
-        
+        top: 82rem;
+        left: -0.3rem;
+    }
+
+    #img_text_2{
+        position: absolute;
+        top: 82rem;
+        left: 25.6rem;
+    }
+
+    #img_text_3{
+        position: absolute;
+        top: 82rem;
+        left: 51rem;
+    }
+
+    #img_text_4{
+        position: absolute;
+        left: -0.3rem;
+        top: 124.6rem;
+    }
+
+    #img_text_5{
+        position: absolute;
+        top: 158.2rem;
+        left: -0.3rem;
+    }
+
+    #img_text_6{
+        position: absolute;
+        top: 158.1rem;
+        left: 25.6rem;
+    }
+
+    #img_text_7{
+        position: absolute;
+        top: 158.2rem;
+        left: 51.5rem;
+    }
+
+    #img_text_8{
+        margin-left: 1.5rem;
+        margin-top: 0.7rem;
+      }
+
+    #img_text_9{
+        position: relative;
+        top: -43.6rem;
+        left: 37rem;
     }
 
     #Default_img1 {
@@ -870,13 +1020,46 @@
         margin-left: 1.6rem;
     }
 
-
-
-    #Large_img1{
-        margin-top: 15rem;
-        
+    #Default_img4{
+        margin-left: 1.6rem;
+        margin-top: 2rem;
     }
 
+    #Default_img5{
+        margin-left: 1.6rem;
+    }
+
+    #Default_img6{
+        margin-left: 1.6rem;
+    }
+
+    #Development_section h2 {
+        margin-left: 4.2rem;
+        top: 1rem;
+        position: relative;
+        left: -2.6rem;
+    }
+
+    #Large_img1, #Large_img2, #Large_img3{
+        width: 36.5rem;
+        height: auto;
+    }
+
+    #Large_img1 {
+        margin-left: 1.6rem;
+        margin-top: 6rem;
+    }
+
+    #Large_img2{
+        margin-left: 1.6rem;
+        margin-top: 2rem;
+    }
+
+    #Large_img3{
+        margin-left: 40rem;
+        position: relative;
+        top: -43.2rem;
+    }
 
 
     #About_our_Company{
@@ -933,14 +1116,194 @@
         margin-left: -118px;        
     }
 
-    #Our_services_Ikoner{
+    #Branding2 {
+        margin-left: 9rem;
+        margin-top: 11rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: -450px;
         font-size: 13px;
-        margin-top: -7rem;
+      }
 
+      #Branding2{
+        margin-left: 9rem;
+        margin-top: 11rem;
+    }
+
+    #Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
+        font-size: 2.2rem;
+        margin-left: 2.3rem;
+        margin-top: 3rem;
+        margin-bottom: 8rem;
+        width: 5rem;
+    }
+
+    #Ikoner2_1{
+        margin-top: 5rem;
+    }
+
+    #Ikoner2_2{
+        margin-top: 5rem;
+        margin-left: 15rem;
+    }
+
+    #Ikoner2_3{
+        margin-top: 5rem;
+        margin-left: 15rem;
+    }
+
+    #Ikoner2_4{
+        margin-top: 5rem;
+        margin-left: 15rem;
+    }
+
+    #Brandingh3_1{
+        margin-top: 8.5rem;
+        font-size: 1.3rem;
+        margin-left: -57.5rem;
+    }
+
+    #Brandingh3_2{
+        margin-top: 8.5rem;
+        font-size: 1.3rem;
+        margin-left: 12rem;
+
+    }
+
+    #Brandingh3_3{
+        margin-top: 8.5rem;
+        font-size: 1.3rem;
+        margin-left: 12rem;
+    }
+
+    #Brandingh3_4{
+        margin-top: 8.5rem;
+        font-size: 1.3rem;
+        margin-left: 12rem;
+
+    }
+
+    #Brandingp_text{
+        position: absolute;
+    }
+
+    #Brandingp_text_1{
+        margin-top: 11rem;
+        width: 15rem;
+        text-align: center;
+    }
+
+    #Brandingp_text_2{
+        margin-top: -4.2rem;
+        width: 15rem;
+        text-align: center;
+        margin-left: 14rem;
+
+    }
+
+    #Brandingp_text_3{
+        margin-top: -4.3rem;
+        width: 15rem;
+        text-align: center;
+        margin-left: 32rem;
+    }
+
+    #Brandingp_text_4{
+        margin-top: -4.2rem;
+        width: 15rem;
+        text-align: center;
+        margin-left: 50rem;
+    }
+    
+    #Client_logos{
+        position: absolute;
+        top: 13rem;
+        left: 0;
+        right: 0;
+        background-color: #e6bd43;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        height: 24rem;
+        margin-top: 55rem;
+        
+    }
+
+    #Client_logos h2{
+        margin-left: 4.2rem;
+        margin-top: 2.5rem;
+        margin-left: 27rem;
+        font-size: 2rem;
+    }
+
+    #Client_Logo1, #Client_Logo2, #Client_Logo3{
+        width: 9rem; 
+        height: 9rem;
+        margin-top: 5rem;
+    
+    }
+
+    #Client_Logo1{
+        margin-left: 21rem;
+    }
+
+    #Client_Logo2{
+    }
+
+    #Client_Logo3{
+        margin-left: 3.2rem;
+        margin-top: 3rem;
+    }
+
+    #Contact_us {
+        margin-top: 30rem;
+        margin-left: 32rem;
+        font-size: 2rem;
+        width: 15rem;
+    }
+
+    #Contact_us_pack h3{
+        font-size: 1rem;
+        margin-top: 4.5rem;
+        margin-left: 15rem;
+        width: 11rem;
+    }
+
+    #Contact-del1{
+        margin-left: 15rem;
+        
+    }
+
+
+    body #About-page #username {
+        border: none;
+        width: 169.7px;
+        height: 34px;
+        position: relative;
+        top: 0.5rem;
+    }
+
+    #Send_message{
+        width: 7rem;
+    }
+
+    #Contact-del2 {
+        position: relative;
+        left: 38.6rem;
+        top: -32.4rem;
+    }
+
+    #Content_info {
+        position: absolute;
+        top: 98rem;
+        left: 26.6rem;
+    }
+
+    #info-text-content {
+        position: relative;
+        width: 33rem;
+        left: 38.5rem;
+        top: -32.3rem;
     }
 
 
@@ -970,12 +1333,11 @@
         top: 4rem;
     }
 
-    #Branding_section h2 {
-        margin-left: 1.4rem;
-        margin-top: 7rem;
-      }
-
-    
+    #Design_section h2 {
+        position: relative;
+        left: -2.6rem;
+        top: 1rem;
+    }
     
     
     #sub-heading,
@@ -1081,16 +1443,14 @@
         margin-top: 6rem;
     }
 
-
-    #username {
-       border: none;
+    body #index-page #username {
+        border: none;
         width: 169.7px;
         height: 34px;
         position: relative;
         top: 0.5rem;
-    }
+        }
 
-   
 
     #Sign_up_button {
        position: relative;
@@ -1112,9 +1472,9 @@
         top: 107rem;
         }
     
-        #Sign_up, h2{
-            margin-top: 59px;
-        }
+    #Sign_up, h2{
+        margin-top: 59px;
+    }
 
     
     footer {
