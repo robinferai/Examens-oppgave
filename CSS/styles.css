@@ -1,1532 +1,1644 @@
 
-    body {
-        margin: 0;
-        font-family: 'Open Sans', sans-serif;
-        background-color: #f4f4f4;
-        padding: 0;
-    }
-    
-    p {
-        font-weight: 200;
-        color: #252525;
-    }
-    
-    .grid-container {
-        display: grid;
-        grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
-        grid-template-rows: auto auto 1fr auto;
-        min-height: 100vh;
-    }
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+    padding: 0;
+}
 
-    .meny{
-        margin-top: 1.5rem;
-    }
-    
-    .meny ul {
-        margin-top: -2px; 
-        list-style: none; 
-        padding: 0; 
-        margin-left: 10.5rem;
-    }
-    
-    .meny li {
-        margin-bottom: 20px;
-    }
-    
-    .meny img {
-        max-width: 100px; 
-        margin-bottom: 10px; 
-        margin-left: 9rem;
-    }
-    
-    .meny a {
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        margin-bottom: 20px; 
-        text-decoration: none; 
-        color: black; 
-    }
-    
-    .meny #Contact {
-        position: relative;
-        background-color: #e6bd43;
-        padding: 10px;
-        color: #000;
-        display: inline-block;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        bottom: 5px;
-        margin-left: -0.6rem;
-    }
+p {
+    font-weight: 200;
+    color: #252525;
+}
 
-    
-    .meny #Home{
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        border-bottom: 3px solid #e6bd43;
+.grid-container {
+    display: grid;
+    grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
 
-    }
-    
-    .meny #About{
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        border-bottom: 3px solid #e6bd43;
+.meny{
+    margin-top: 1.5rem;
+}
 
-    }
-    
-    .meny #Portfolio{
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        border-bottom: 3px solid #e6bd43;
+.meny ul {
+    margin-top: -2px; 
+    list-style: none; 
+    padding: 0; 
+    margin-left: 10.5rem;
+}
 
-    }
+.meny li {
+    margin-bottom: 20px;
+}
 
-    
-    .long_img {
-        position: absolute; /* Chat GPT */
-        top: 20rem;
-        left: 0;
-        width: 100%;
-        height: 350px;
-        z-index: -1; 
-    }
+.meny img {
+    max-width: 100px; 
+    margin-bottom: 10px; 
+    margin-left: 9rem;
+}
 
-    #About-page .long_img {
-        position: absolute; /* Chat GPT */
-        top: 20rem;
-        left: 0;
-        width: 100%;
-        height: 59rem;
-        z-index: -1; 
-        height: 50rem;
-    }
+.meny a {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px; 
+    text-decoration: none; 
+    color: black; 
+}
 
-    #Portfolio_overskrift {
-        margin-top: -7rem;
-    }
-    
-
-   
-    header {
-        padding: 20px;
-        text-align: center;
-        grid-area: header;
-        margin-top: 14rem;
-    }
-
-    header h1 {
-        width: 15rem;
-        margin-top: -14rem;
-        margin-left: 4.3rem;
-        font-size: 2rem;
-    }
+.meny #Contact {
+    position: relative;
+    background-color: #e6bd43;
+    padding: 10px;
+    color: #000;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    bottom: 5px;
+    margin-left: -0.6rem;
+}
 
 
-    #Header_Text {
-        color: #252525;
-        width: 20rem;
-        margin-left: 2rem;
-    }
+.meny #Home{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 3px solid #e6bd43;
 
-    #Explore {
-        margin-top: 6rem;
-        margin-left: 4.5rem;
-    }
+}
 
-    #List_of_Jobs a{
-        position: relative;
-        text-decoration: none;
-        color: #000;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 200;
-        border: 1px solid #000;
-        font-size: 15px;
-        padding: 6px;
-        margin-right: 8px; 
-        left: -3px;
-        top: 2rem;
-    }
+.meny #About{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 3px solid #e6bd43;
+
+}
+
+.meny #Portfolio{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 3px solid #e6bd43;
+
+}
+
+
+.long_img {
+    position: absolute; /* Chat GPT */
+    top: 20rem;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: -1; 
+}
+
+#About-page .long_img {
+    position: absolute; /* Chat GPT */
+    top: 20rem;
+    left: 0;
+    width: 100%;
+    height: 59rem;
+    z-index: -1; 
+    height: 50rem;
+}
+
+#Portfolio_overskrift {
+    margin-top: -7rem;
+}
 
 
 
-    #Branding{
-        margin-left: 4.2rem;
-    }
+header {
+    padding: 20px;
+    text-align: center;
+    grid-area: header;
+    margin-top: 14rem;
+}
 
-    #Branding_section h2{
-        margin-left: 6.5rem;
-        font-size: 2.5rem;
-    }
-
-
-    #Development_section h2{
-        margin-left: 4.2rem;
-    }
-
-    #Design_section h2{
-        margin-left: 4.2rem;
-    }
-
-    .separator1, .separator2, .separator3, .separator4 {
-        display: block;
-        height: 3px;
-        background-color: #e6bd43;
-        width: 20rem;
-        margin-left: 2rem;
-      }
+header h1 {
+    width: 15rem;
+    margin-top: -14rem;
+    margin-left: 4.3rem;
+    font-size: 2rem;
+}
 
 
-   .img_text{
-    margin-left: 3.2rem;
-    font-weight: bold;
-    }
+#Header_Text {
+    color: #252525;
+    width: 20rem;
+    margin-left: 2rem;
+}
 
-    #Default_img_1{
+#Explore {
+    margin-top: 6rem;
+    margin-left: 4.5rem;
+}
+
+#List_of_Jobs a{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    border: 1px solid #000;
+    font-size: 15px;
+    padding: 6px;
+    margin-right: 8px; 
+    left: -3px;
+    top: 2rem;
+}
+
+
+
+#Branding{
+    margin-left: 4.2rem;
+}
+
+#Branding_section h2{
+    margin-left: 6.5rem;
+    font-size: 2.5rem;
+}
+
+
+#Development_section h2{
+    margin-left: 4.2rem;
+}
+
+#Design_section h2{
+    margin-left: 4.2rem;
+}
+
+.separator1, .separator2, .separator3, .separator4 {
+    display: block;
+    height: 3px;
+    background-color: #e6bd43;
+    width: 20rem;
+    margin-left: 2rem;
+  }
+
+
+.img_text{
+margin-left: 3.2rem;
+font-weight: bold;
+}
+
+#Default_img_1{
+width: 18rem;
+height: auto;
+margin-top: 2.7rem;
+margin-left: 2rem;
+}
+
+#Default_img1, #Default_img2, #Default_img3, #Default_img4, #Default_img5, #Default_img6  {
     width: 18rem;
     height: auto;
-    margin-top: 2.7rem;
+    margin-left: 3.2rem;
+    margin-top: 3rem;
+}
+
+
+#Defaul_img1{
+    width: 2px;
+    height: 2px;
+}
+
+#Large_img1, #Large_img2, #Large_img3{
+    width: 18rem;
+    height: auto;
+    margin-left: 3.2rem;
+    margin-top: 3rem;
+}
+
+#About-page header h1 {
+    position: absolute;
+    width: 19rem;
+    font-size: 3rem;
+    top: 44rem;
+    Left: 5rem;
+}
+
+#img_text_1,
+#img_text_2, 
+#img_text_3, 
+#img_text_4, 
+#img_text_5, 
+#img_text_6, 
+#img_text_7, 
+#img_text_8, 
+#img_text_9{
+    margin-left: 3.1rem;
+}
+
+
+#Get_in_touch,
+#Read_more_services,
+#Read_more_us,
+#Sign_up_button,
+#Send_message {
+    display: inline-block;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 800;
+    color: #000;
+}
+
+
+#Read_more_services{
+    margin-top: -0.5rem;
+}
+
+
+.video-container {
+    position: absolute; /* Chat GPT */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    top: 20rem
+}
+  
+video {
+    width: 100vw; /* Stretch the video to the full viewport width */
+    height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+    object-fit: cover;
+
+}
+
+
+#sub-header {
+    grid-area: sub-header;
+    padding: 20px;
+    text-align: center;
+}
+
+#sub-heading h2{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#sub-heading p{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 3.5rem;
+    width: 19rem;
+}
+
+body#About-page main{
+    width: 20rem;
+    margin-top: 7rem;
+}
+
+#info_box_About {
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 44rem;
+    width: 18rem;
+    margin-left: 3.4rem;
+    margin-top: -22rem;
+}
+
+#info_box_About p{
+    width: 14rem;
+    margin-left: 1rem;
+}
+
+#info_box_About h3{
+    margin-left: 1rem;
+    width: 7rem;
+    font-size: 1.3rem;
+}
+
+#Get_in_touch{
+    width: 9rem;
     margin-left: 2rem;
-    }
+}
 
-    #Default_img1, #Default_img2, #Default_img3, #Default_img4, #Default_img5, #Default_img6  {
-        width: 18rem;
-        height: auto;
-        margin-left: 3.2rem;
-        margin-top: 3rem;
-    }
+#About-page header h1 {
+    position: absolute;
+    width: 19rem;
+    font-size: 3rem;
+    top: 86rem;
+    Left: -1.5rem;
+}
 
+#Branding2{
+    margin-left: 9rem;
+    margin-top: 11rem;
+}
 
-    #Defaul_img1{
-        width: 2px;
-        height: 2px;
-    }
+#Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
+    font-size: 2rem;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    width: 5rem;
+}
 
-    #Large_img1, #Large_img2, #Large_img3{
-        width: 18rem;
-        height: auto;
-        margin-left: 3.2rem;
-        margin-top: 3rem;
-    }
+.Brandingh3{
+    margin-left: 1rem;
+    margin-top: -17.4rem;
+}
 
-    #About-page header h1 {
-        position: absolute;
-        width: 19rem;
-        font-size: 3rem;
-        top: 44rem;
-        Left: 5rem;
-    }
+#Brandingh3_1{
+    margin-top: -46rem;
+    margin-left: 0.9rem;
+}
 
-    #img_text_1,
-    #img_text_2, 
-    #img_text_3, 
-    #img_text_4, 
-    #img_text_5, 
-    #img_text_6, 
-    #img_text_7, 
-    #img_text_8, 
-    #img_text_9{
-        margin-left: 3.1rem;
-    }
+#Brandingh3_2{
+    margin-top: 11.3rem;
+    margin-left: 0.9rem;
+}
 
+#Brandingh3_3{
+    margin-left: 0.9rem;
+    margin-top: 11.6rem;
+}
 
-    #Get_in_touch,
-    #Read_more_services,
-    #Read_more_us,
-    #Sign_up_button,
-    #Send_message {
-        display: inline-block;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        text-decoration: none;
-        margin-top: 10px;
-        font-weight: 800;
-        color: #000;
-    }
+#Brandingh3_4{
+    margin-top: 11.5rem;
+    margin-left: 0.9rem;
+}
+
+#Brandingp_text_1{
+    margin-top: -39rem;
+    width: 13rem;
+    text-align: center;
+    margin-left: -3rem;
+}
+
+#Brandingp_text_2{
+    margin-top: 10rem;
+    width: 13rem;
+    text-align: center;
+    margin-left: -3rem;
+}
+
+#Brandingp_text_3{
+    margin-top: 10.5rem;
+    width: 13rem;
+    text-align: center;
+    margin-left: -3rem;
+}
+#Brandingp_text_4{
+    margin-top: 10.4rem;
+    width: 13rem;
+    text-align: center;
+    margin-left: -3rem;
+}
+
+.Brandingp_text{
+    width: 13rem;
+    margin-left: -2.4rem;
+}
+
+#Client_logos{
+    position: absolute;
+    top: 82rem;
+    left: 0;
+    right: 0;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 34rem;
+    margin-top: 55rem;
     
+}
 
-    #Read_more_services{
-        margin-top: -0.5rem;
-    }
-    
-    
-    .video-container {
-        position: absolute; /* Chat GPT */
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; 
-        top: 20rem
-    }
+#Client_logos h2{
+    margin-left: 4.2rem;
+    margin-top: 2.5rem;
+}
+
+#Client_Logo1, #Client_Logo2, #Client_Logo3{
+    width: 9rem; 
+    height: 9rem;
+    margin-top: 3rem;
+}
+
+#Client_Logo1{
+    margin-left: 0.5rem;
+}
+
+#Client_Logo2{
+    margin-left: 3rem;
+}
+
+#Client_Logo3{
+    margin-left: 6.6rem;
+    margin-top: 3rem;
+}
+
+#Send_message{
+    margin-top: -1rem;
+}
+
+
+#Contact_us_pack{
+    margin-left: 2rem;
+}
+
+#Contact_us{
+    margin-top: 44rem;
+    margin-left: 6.5rem;
+}
+
+#username, #subject, #message{
+    margin-top: 1rem;
+}
+
+#username {
+    border: none;
+    width: 20.5rem;
+    height: 34px;
+    position: relative;
+    top: -1.2rem;
+}
+
+#subject {
+    border: none;
+    width: 20.5rem;
+    height: 34px;
+    position: relative;
+    top: -1.2rem;
+}
+
+#username {
+    border: none;
+    width: 20.5rem;
+    height: 34px;
+    position: relative;
+    top: -1.2rem;
+}
+
+body#index-page #username{
+    width: 10rem;
+}
+
+#subject {
+    border: none;
+    width: 20.5rem;
+    height: 34px;
+    position: relative;
+    top: -1.2rem;
+}
+
+#message {
+    border: none;
+    width: 20.5rem;
+    height: 10rem;
+    position: relative;
+    top: -1.2rem;
+}
+
+#Content_info{
+    margin-top: 4.5rem;
+}
+
+#Ikoner3{
+    display: flex;
+    position: relative;
+    margin-bottom: 0.8rem;
+    color: #252525;
+} 
+
+
+#adresse_info, #E-post{
+    margin-bottom: -0.7rem;
+    position: relative;
+    left: 2rem;
+    top: -5.8rem;
+    font-size: 16px;
+}
+
+#E-post{
+    color: blue;
+    text-decoration: underline;
+}
+
       
-    video {
-        width: 100vw; /* Stretch the video to the full viewport width */
-        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
-        object-fit: cover;
 
-    }
+#Kart {
+    width: 100vw; /* Stretch the video to the full viewport width */
+    height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+    object-fit: cover;
+  }
+  
+.Kart-container {
+    position: relative; /* Chat GPT */
+    top: -2rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
+#About_our_Company{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 58rem;
+    margin-top: 55rem;
+}
 
-    #sub-header {
-        grid-area: sub-header;
-        padding: 20px;
-        text-align: center;
-    }
+#About_our_Company h2{
+    margin-left: 3.6rem;
+}
 
-    #sub-heading h2{
-        font-weight: bold;
-        text-align: center;
-        margin-top: 5rem;
-    }
-
-    #sub-heading p{
-        text-align: center;
-        margin-top: 40px;
-        margin-left: 3.5rem;
-        width: 19rem;
-    }
-
-    body#About-page main{
-        width: 20rem;
-        margin-top: 7rem;
-    }
-
-    #info_box_About {
-        background-color: rgba(240, 240, 240, 0.8);
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 44rem;
-        width: 18rem;
-        margin-left: 3.4rem;
-        margin-top: -22rem;
-    }
-
-    #info_box_About p{
-        width: 14rem;
-        margin-left: 1rem;
-    }
-
-    #info_box_About h3{
-        margin-left: 1rem;
-        width: 7rem;
-        font-size: 1.3rem;
-    }
-
-    #Get_in_touch{
-        width: 9rem;
-        margin-left: 2rem;
-    }
-    
-    #About-page header h1 {
-        position: absolute;
-        width: 19rem;
-        font-size: 3rem;
-        top: 86rem;
-        Left: -1.5rem;
-    }
-
-    #Branding2{
-        margin-left: 9rem;
-        margin-top: 11rem;
-    }
-
-    #Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
-        font-size: 2rem;
-        margin-left: 2.3rem;
-        margin-top: 3rem;
-        margin-bottom: 8rem;
-        width: 5rem;
-    }
-
-    .Brandingh3{
-        margin-left: 1rem;
-        margin-top: -17.4rem;
-    }
-
-    #Brandingh3_1{
-        margin-top: -46rem;
-        margin-left: 0.9rem;
-    }
-
-    #Brandingh3_2{
-        margin-top: 11.3rem;
-        margin-left: 0.9rem;
-    }
-
-    #Brandingh3_3{
-        margin-left: 0.9rem;
-        margin-top: 11.6rem;
-    }
-
-    #Brandingh3_4{
-        margin-top: 11.5rem;
-        margin-left: 0.9rem;
-    }
-
-    #Brandingp_text_1{
-        margin-top: -39rem;
-        width: 13rem;
-        text-align: center;
-        margin-left: -3rem;
-    }
-
-    #Brandingp_text_2{
-        margin-top: 10rem;
-        width: 13rem;
-        text-align: center;
-        margin-left: -3rem;
-    }
-
-    #Brandingp_text_3{
-        margin-top: 10.5rem;
-        width: 13rem;
-        text-align: center;
-        margin-left: -3rem;
-    }
-    #Brandingp_text_4{
-        margin-top: 10.4rem;
-        width: 13rem;
-        text-align: center;
-        margin-left: -3rem;
-    }
-
-    .Brandingp_text{
-        width: 13rem;
-        margin-left: -2.4rem;
-    }
-
-    #Client_logos{
-        position: absolute;
-        top: 82rem;
-        left: 0;
-        right: 0;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 34rem;
-        margin-top: 55rem;
-        
-    }
-
-    #Client_logos h2{
-        margin-left: 4.2rem;
-        margin-top: 2.5rem;
-    }
-
-    #Client_Logo1, #Client_Logo2, #Client_Logo3{
-        width: 9rem; 
-        height: 9rem;
-        margin-top: 3rem;
-    }
-
-    #Client_Logo1{
-        margin-left: 0.5rem;
-    }
-
-    #Client_Logo2{
-        margin-left: 3rem;
-    }
-
-    #Client_Logo3{
-        margin-left: 6.6rem;
-        margin-top: 3rem;
-    }
-
-    #Send_message{
-        margin-top: -1rem;
-    }
-
-    
-    #Contact_us_pack{
-        margin-left: 2rem;
-    }
-
-    #Contact_us{
-        margin-top: 44rem;
-        margin-left: 6.5rem;
-    }
-
-    #username, #subject, #message{
-        margin-top: 1rem;
-    }
-
-    #username {
-        border: none;
-        width: 20.5rem;
-        height: 34px;
-        position: relative;
-        top: -1.2rem;
-    }
-
-    #subject {
-        border: none;
-        width: 20.5rem;
-        height: 34px;
-        position: relative;
-        top: -1.2rem;
-    }
-
-    #username {
-        border: none;
-        width: 20.5rem;
-        height: 34px;
-        position: relative;
-        top: -1.2rem;
-    }
-
-    body#index-page #username{
-        width: 10rem;
-    }
-
-    #subject {
-        border: none;
-        width: 20.5rem;
-        height: 34px;
-        position: relative;
-        top: -1.2rem;
-    }
-
-    #message {
-        border: none;
-        width: 20.5rem;
-        height: 10rem;
-        position: relative;
-        top: -1.2rem;
-    }
-
-    #Content_info{
-        margin-top: 4.5rem;
-    }
-
-    #Ikoner3{
-        display: flex;
-        position: relative;
-        margin-bottom: 0.8rem;
-        color: #252525;
-    } 
+#About_our_Company p{
+    margin-left: 7rem;
+    width: 10rem;
+}
 
 
-    #adresse_info, #E-post{
-        margin-bottom: -0.7rem;
-        position: relative;
-        left: 2rem;
-        top: -5.8rem;
-        font-size: 16px;
-    }
+#Read_more_us{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black; 
+    padding: 10px 20px;
+    margin-left: 5.4rem;
+}
 
-    #E-post{
-        color: blue;
-        text-decoration: underline;
-    }
+#Our_services{
+    margin-top: 63rem;
+}
 
-          
+#Our_services h2{
+    margin-left: 8rem;
+}
+
+#Ikoner{
+    margin-left: 11.5rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#Our_services h3{
+    margin-left: 10.1rem;
+}
+
+#Our_services p{
+    margin-left: 6.6rem;
+    width: 18rem;
+}
+
+#Sign_up {
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 800;
+    color: #000;
+    height: 12rem;
+}
+
+#Sign_up, h2{
+    margin-top: 59px;
+}
    
-    #Kart {
-        width: 100vw; /* Stretch the video to the full viewport width */
-        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
-        object-fit: cover;
-      }
-      
-    .Kart-container {
-        position: relative; /* Chat GPT */
-        top: -2rem;
-        left: 0;
-        width: 100%;
-        height: 100%;
-      }
 
-    #About_our_Company{
-        position: absolute;
-        top: 200px;
-        left: 0;
-        right: 0;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 58rem;
-        margin-top: 55rem;
-    }
+#Sign_up_button {
+    position: relative;
+    height: 17px;
+    right: 0.1rem;
+    top: -1rem;
+}
 
-    #About_our_Company h2{
-        margin-left: 3.6rem;
-    }
+body#Portfolio-page footer{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+    height: 15rem;
+  }
 
-    #About_our_Company p{
-        margin-left: 7rem;
-        width: 10rem;
-    }
+body#index-page footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+    margin-top: 250px;
+    height: 15rem;
+}
+
+body#About-page footer{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+    height: 15rem;
+    margin-top: -7.3rem
+  }
+
+.SOME{
+    display: flex;
+    margin-left: 8rem; 
+    font-size: 20px;
+    margin-top: -1rem;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 8rem;
+}
+
+.Logo1_footer {
+    max-width: 100px; 
+    margin-bottom: 20px;
+    position: absolute;
+    left: 9.5rem;
+}
 
 
-    #Read_more_us{
-        display: inline-block;
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-        border: 2px solid black; 
-        padding: 10px 20px;
-        margin-left: 5.4rem;
-    }
 
-    #Our_services{
-        margin-top: 63rem;
-    }
+.SOME a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    margin-top: 2rem;
+}
 
-    #Our_services h2{
-        margin-left: 8rem;
-    }
-   
-    #Ikoner{
-        margin-left: 11.5rem;
-        font-size: 2rem;
-        margin-top: 1rem;
-    }
+.Snarvei {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
-    #Our_services h3{
-        margin-left: 10.1rem;
-    }
+.Snarvei i {
+    font-size: 1.5em;
+}
 
-    #Our_services p{
-        margin-left: 6.6rem;
-        width: 18rem;
-    }
-
-    #Sign_up {
-        position: absolute;
-        box-sizing: border-box;
-        background-color: #e2e2e2;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-weight: 800;
-        color: #000;
-        height: 12rem;
-    }
-    
-    #Sign_up, h2{
-        margin-top: 59px;
-    }
-       
-    
-    #Sign_up_button {
-        position: relative;
-        height: 17px;
-        right: 0.1rem;
-        top: -1rem;
-    }
-
-    body#Portfolio-page footer{
-        background-color: #333;
-        color: #ffffff;
-        padding: 20px;
-        text-align: center;
-        grid-area: footer;
-        height: 15rem;
-      }
-
-    body#index-page footer {
-        background-color: #333;
-        color: #ffffff;
-        padding: 20px;
-        text-align: center;
-        grid-area: footer;
-        margin-top: 250px;
-        height: 15rem;
-    }
-
-    body#About-page footer{
-        background-color: #333;
-        color: #ffffff;
-        padding: 20px;
-        text-align: center;
-        grid-area: footer;
-        height: 15rem;
-        margin-top: -7.3rem
-      }
-    
-    .SOME{
-        display: flex;
-        margin-left: 8rem; 
-        font-size: 20px;
-        margin-top: -1rem;
-    }
-    
-    footer p {
-        color: #fff;
-        margin-top: 8rem;
-    }
-    
-    .Logo1_footer {
-        max-width: 100px; 
-        margin-bottom: 20px;
-        position: absolute;
-        left: 9.5rem;
-    }
-
-    
-    
-    .SOME a {
-        color: #fff;
-        margin: 0 10px;
-        text-decoration: none;
-        margin-top: 2rem;
-    }
-    
-    .Snarvei {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-    
-    .Snarvei i {
-        font-size: 1.5em;
-    }
-    
 
 @media only screen and (min-width:600px){
-    body {
-        margin: 0;
-        font-family: 'Open Sans', sans-serif;
-    }
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-weight: 200;
+    color: #252525;
+    font-size: 18px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
+    grid-template-rows: auto auto 1fr auto;
+    min-height: 100vh;
+}
+
+.meny {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: meny;
+    top: 15px;
+}
+
+.meny #Home{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 3px solid #e6bd43;
+
+}
+
+.meny #About{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 3px solid #e6bd43;
+
+}
+
+.meny #Portfolio{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    border-bottom: 3px solid #e6bd43;
+
+}
+
+.meny img {
+    max-width: 100px; /* Adjust as needed */
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+}
+
+.meny #Contact {
+    position: relative;
+    background-color: #e6bd43;
+    padding: 10px;
+    color: #000;
+    display: inline-block;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    bottom: 5px;
     
-    p {
-        font-weight: 200;
-        color: #252525;
-        font-size: 18px;
-    }
+}
+
+.meny #Contact:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    font-weight: 800;
+    color: black;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    grid-area: header;
+    margin-top: 6rem;
     
-    .grid-container {
-        display: grid;
-        grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
-        grid-template-rows: auto auto 1fr auto;
-        min-height: 100vh;
-    }
-    
-    .meny {
-        position: relative;
-        padding: 10px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        grid-area: meny;
-        top: 15px;
-    }
-    
-    .meny #Home{
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        border-bottom: 3px solid #e6bd43;
-
-    }
-    
-    .meny #About{
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        border-bottom: 3px solid #e6bd43;
-
-    }
-    
-    .meny #Portfolio{
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        border-bottom: 3px solid #e6bd43;
-
-    }
-    
-    .meny img {
-        max-width: 100px; /* Adjust as needed */
-        margin-top: -1.5rem;
-        margin-left: 1rem;
-    }
-    
-    .meny #Contact {
-        position: relative;
-        background-color: #e6bd43;
-        padding: 10px;
-        color: #000;
-        display: inline-block;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        bottom: 5px;
-        
-    }
-
-    .meny #Contact:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    
-    nav ul {
-        list-style: none;
-        display: flex;
-        font-weight: 800;
-        color: black;
-    }
-    
-    nav ul li {
-        margin-right: 20px;
-    }
-    
-    nav ul li a {
-        text-decoration: none; /* Remove underline */
-        color: black;
-    }
-    
-    header {
-        padding: 20px;
-        text-align: center;
-        grid-area: header;
-        margin-top: 6rem;
-        
-    }
-
-    .video-container {
-        position: absolute; /* Chat GPT */
-        top: 9rem;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1; 
-      }
-      
-    video {
-        width: 100vw; /* Stretch the video to the full viewport width */
-        height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
-        object-fit: cover;
-    }
-
-    header h1 {
-        font-size: 45px;
-        font-weight: bold;
-        width: 27rem;
-        margin-left: 25rem;
-        margin-top: 1rem;
-    }
-
-    .Header_box{
-        position: relative;
-        top: -6rem;
-    }
-
-    #Header_Text {
-        color: #252525;
-        margin-top: 13px;
-        width: 55rem;
-        margin-left: 11.6rem;
-    }
-
-    
-    .long_img {
-        position: absolute; /* Chat GPT */
-        top: 9rem;
-        left: 0;
-        width: 100%;
-        height: 350px;
-        z-index: -1; 
-    }
-
-    #info_box_About {
-        background-color: rgba(240, 240, 240, 0.8);
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 27rem;
-        width: 45rem;
-        margin-left: 31rem;
-        margin-top: -14.4rem;
-      }
-
-      #info_box_About h3{
-        width: 13rem;
-      }
-
-      #info_box_About p {
-        width: 42rem;
-        margin-left: 1rem;
-    }    
-      
-
-      #About-page .long_img {
-        position: absolute; /* Chat GPT */
-        top: 9rem;
-        left: 0;
-        width: 100%;
-        height: 33rem; /* Adjust this value as needed */
-        z-index: -1; 
-    }
-
-    #About-page header h1 {
-        position: absolute;
-        width: 19rem;
-        font-size: 3rem;
-        top: 45rem;
-        Left: 6rem;
-      }
-
-    #sub-header {
-        grid-area: sub-header;
-        padding: 20px;
-        text-align: center;
-    }
-
-    #sub-heading h2{
-        width: 500px;
-        font-size: 30px; 
-        font-weight: bold;
-        text-align: center;
-        margin-top: 3rem;
-        margin-left: 25rem;
-    }
-
-    #sub-heading p{
-        text-align: center;
-        max-width: 100%;
-        margin: auto;
-        width: 900px;
-        margin-top: 3rem;
-    }
-    
-   
-    #Portfolio_overskrift{
-        margin-top: 1rem;
-
-    }
-    
-    
-    main {
-        padding: 20px;
-        grid-area: main;
-
-    }
-
-    body#index-page main {
-        margin-top: 800px;
-    }
-
-    body#Portfolio-page main{
-        margin-top: 100px;
-    }
-    
-    .separator1, .separator2, .separator3, .separator4 {
-        display: block;
-        height: 3px;
-        background-color: #e6bd43;
-        width: 75rem;
-        margin-left: 1.6rem;
-    }
-
-    #Explore{
-        font-size: 40px;
-        margin-top:1rem;
-    }
-
-    #Branding{
-        font-size: 40px;
-    }
-
-    #Branding_img{
-        display: flex;
-        margin-top: 1rem;
-    }
-
-    #Branding_section h2 {
-        margin-left: 1.4rem;
-        font-size: 2.5rem;
-        position: relative;
-        top: 1.6rem;
-        margin-top: 5rem;
-      }
-    
-    #Default_img1, #Default_img2, #Default_img3, #Default_img4, #Default_img5, #Default_img6  {
-        width: 383px;
-        height: 383px;
-        margin-top: 1rem;
-
-    } 
-
-   
-
-    #img_text_1{
-        position: absolute;
-        top: 82rem;
-        left: -0.3rem;
-    }
-
-    #img_text_2{
-        position: absolute;
-        top: 82rem;
-        left: 25.6rem;
-    }
-
-    #img_text_3{
-        position: absolute;
-        top: 82rem;
-        left: 51rem;
-    }
-
-    #img_text_4{
-        position: absolute;
-        left: -0.3rem;
-        top: 124.6rem;
-    }
-
-    #img_text_5{
-        position: absolute;
-        top: 158.2rem;
-        left: -0.3rem;
-    }
-
-    #img_text_6{
-        position: absolute;
-        top: 158.1rem;
-        left: 25.6rem;
-    }
-
-    #img_text_7{
-        position: absolute;
-        top: 158.2rem;
-        left: 51.5rem;
-    }
-
-    #img_text_8{
-        margin-left: 1.5rem;
-        margin-top: 0.7rem;
-      }
-
-    #img_text_9{
-        position: relative;
-        top: -43.6rem;
-        left: 37rem;
-    }
-
-    #Default_img1 {
-        margin-left: 1.6rem;
-    }
-
-    #Default_img2 {
-        margin-left: 1.6rem;
-    }
-
-    #Default_img3{
-        margin-left: 1.6rem;
-    }
-
-    #Default_img4{
-        margin-left: 1.6rem;
-        margin-top: 2rem;
-    }
-
-    #Default_img5{
-        margin-left: 1.6rem;
-    }
-
-    #Default_img6{
-        margin-left: 1.6rem;
-    }
-
-    #Development_section h2 {
-        margin-left: 4.2rem;
-        top: 1rem;
-        position: relative;
-        left: -2.6rem;
-    }
-
-    #Large_img1, #Large_img2, #Large_img3{
-        width: 36.5rem;
-        height: auto;
-    }
-
-    #Large_img1 {
-        margin-left: 1.6rem;
-        margin-top: 6rem;
-    }
-
-    #Large_img2{
-        margin-left: 1.6rem;
-        margin-top: 2rem;
-    }
-
-    #Large_img3{
-        margin-left: 40rem;
-        position: relative;
-        top: -43.2rem;
-    }
-
-
-    #About_our_Company{
-        position: absolute;
-        top: 200px;
-        left: 0;
-        right: 0;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 31.4rem;
-        margin-top: 42rem
-
-    }
-
-    #Default_img_1{
-        width: 25rem;
-        height: auto;
-        margin-top: 2.7rem;
-
-    }
-
-    #About_our_Company h2{
-        font-size: 20px;
-        margin-top: -21rem;
-        margin-left: 30rem;
-
-    }
-
-    #About_our_Company p{
-        width: 700px;
-        padding: 20px;
-        text-align: justify;
-        margin-left: 28.7rem;
-        margin-top: -1.3rem;
-    }
-
-
-   
-    #Our_services h2 {
-        text-align: center;
-        margin-top: -12rem;
-        margin-left: 25.5rem;
-        width: 400px;
-        font-size: 40px;
-    }
-        
-    
-
-    #Our_services h3 {
-        text-align: center;
-        margin-top: 40px;
-        margin-left: -118px;        
-    }
-
-    #Branding2 {
-        margin-left: 9rem;
-        margin-top: 11rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-size: 13px;
-      }
-
-      #Branding2{
-        margin-left: 9rem;
-        margin-top: 11rem;
-    }
-
-    #Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
-        font-size: 2.2rem;
-        margin-left: 2.3rem;
-        margin-top: 3rem;
-        margin-bottom: 8rem;
-        width: 5rem;
-    }
-
-    #Ikoner2_1{
-        margin-top: 5rem;
-    }
-
-    #Ikoner2_2{
-        margin-top: 5rem;
-        margin-left: 15rem;
-    }
-
-    #Ikoner2_3{
-        margin-top: 5rem;
-        margin-left: 15rem;
-    }
-
-    #Ikoner2_4{
-        margin-top: 5rem;
-        margin-left: 15rem;
-    }
-
-    #Brandingh3_1{
-        margin-top: 8.5rem;
-        font-size: 1.3rem;
-        margin-left: -57.5rem;
-    }
-
-    #Brandingh3_2{
-        margin-top: 8.5rem;
-        font-size: 1.3rem;
-        margin-left: 12rem;
-
-    }
-
-    #Brandingh3_3{
-        margin-top: 8.5rem;
-        font-size: 1.3rem;
-        margin-left: 12rem;
-    }
-
-    #Brandingh3_4{
-        margin-top: 8.5rem;
-        font-size: 1.3rem;
-        margin-left: 12rem;
-
-    }
-
-    #Brandingp_text{
-        position: absolute;
-    }
-
-    #Brandingp_text_1{
-        margin-top: 11rem;
-        width: 15rem;
-        text-align: center;
-    }
-
-    #Brandingp_text_2{
-        margin-top: -4.2rem;
-        width: 15rem;
-        text-align: center;
-        margin-left: 14rem;
-
-    }
-
-    #Brandingp_text_3{
-        margin-top: -4.3rem;
-        width: 15rem;
-        text-align: center;
-        margin-left: 32rem;
-    }
-
-    #Brandingp_text_4{
-        margin-top: -4.2rem;
-        width: 15rem;
-        text-align: center;
-        margin-left: 50rem;
-    }
-    
-    #Client_logos{
-        position: absolute;
-        top: 13rem;
-        left: 0;
-        right: 0;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        overflow: hidden;
-        height: 24rem;
-        margin-top: 55rem;
-        
-    }
-
-    #Client_logos h2{
-        margin-left: 4.2rem;
-        margin-top: 2.5rem;
-        margin-left: 27rem;
-        font-size: 2rem;
-    }
-
-    #Client_Logo1, #Client_Logo2, #Client_Logo3{
-        width: 9rem; 
-        height: 9rem;
-        margin-top: 5rem;
-    
-    }
-
-    #Client_Logo1{
-        margin-left: 21rem;
-    }
-
-    #Client_Logo2{
-    }
-
-    #Client_Logo3{
-        margin-left: 3.2rem;
-        margin-top: 3rem;
-    }
-
-    #Contact_us {
-        margin-top: 30rem;
-        margin-left: 32rem;
-        font-size: 2rem;
-        width: 15rem;
-    }
-
-    #Contact_us_pack h3{
-        font-size: 1rem;
-        margin-top: 4.5rem;
-        margin-left: 15rem;
-        width: 11rem;
-    }
-
-    #Contact-del1{
-        margin-left: 15rem;
-        
-    }
-
-
-    body #About-page #username {
-        border: none;
-        width: 169.7px;
-        height: 34px;
-        position: relative;
-        top: 0.5rem;
-    }
-
-    #Send_message{
-        width: 7rem;
-    }
-
-    #Contact-del2 {
-        position: relative;
-        left: 38.6rem;
-        top: -32.4rem;
-    }
-
-    #Content_info {
-        position: absolute;
-        top: 98rem;
-        left: 26.6rem;
-    }
-
-    #info-text-content {
-        position: relative;
-        width: 33rem;
-        left: 38.5rem;
-        top: -32.3rem;
-    }
-
-
-    #Our_services  p{
-        width: 300px;
-        margin-left: -186px;
-        margin-top: 80px;
-    }
-
-    #Explore {
-        margin-top: 6rem;
-        margin-left: 1.4rem;
-    }
-
-    
-    #List_of_Jobs a{
-        position: relative;
-        text-decoration: none;
-        color: #000;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 200;
-        border: 1px solid #000;
-        font-size: 22px;
-        padding: 6px;
-        margin-right: 8px; 
-        left: -2.6rem;
-        top: 4rem;
-    }
-
-    #Design_section h2 {
-        position: relative;
-        left: -2.6rem;
-        top: 1rem;
-    }
-    
-    
-    #sub-heading,
-    #About_our_Company,
-    #Our_services,
-    #Sign_up {
-        margin-bottom: 20px;
-        font-family: 'Work Sans', sans-serif;
-        font-weight: 800;
-        text-decoration: none;
-        color: #000;
-    }
-
-    
-    #Default_img {
-        max-width: 100%;
-    }
-    
-    #Read_more_us,
-    #Read_more_services,
-    #Get_in_touch,
-    #Send_message,
-    #Sign_up_button {
-        display: inline-block;
-        background-color: #e6bd43;
-        padding: 10px 20px;
-        text-decoration: none;
-        margin-top: 10px;
-        font-weight: 800;
-        color: #000;
-    }
+}
+
+.video-container {
+    position: absolute; /* Chat GPT */
+    top: 9rem;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+  }
+  
+video {
+    width: 100vw; /* Stretch the video to the full viewport width */
+    height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+    object-fit: cover;
+}
+
+header h1 {
+    font-size: 45px;
+    font-weight: bold;
+    width: 27rem;
+    margin-left: 25rem;
+    margin-top: 1rem;
+}
+
+.Header_box{
+    position: relative;
+    top: -6rem;
+}
+
+#Header_Text {
+    color: #252525;
+    margin-top: 13px;
+    width: 55rem;
+    margin-left: 11.6rem;
+}
+
+
+.long_img {
+    position: absolute; /* Chat GPT */
+    top: 9rem;
+    left: 0;
+    width: 100%;
+    height: 350px;
+    z-index: -1; 
+}
+
+#info_box_About {
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 27rem;
+    width: 45rem;
+    margin-left: 31rem;
+    margin-top: -14.4rem;
+  }
+
+  #info_box_About h3{
+    width: 13rem;
+  }
+
+  #info_box_About p {
+    width: 42rem;
+    margin-left: 1rem;
+}    
+  
+
+  #About-page .long_img {
+    position: absolute; /* Chat GPT */
+    top: 9rem;
+    left: 0;
+    width: 100%;
+    height: 33rem; /* Adjust this value as needed */
+    z-index: -1; 
+}
+
+#About-page header h1 {
+    position: absolute;
+    width: 19rem;
+    font-size: 3rem;
+    top: 45rem;
+    Left: 6rem;
+  }
+
+#sub-header {
+    grid-area: sub-header;
+    padding: 20px;
+    text-align: center;
+}
+
+#sub-heading h2{
+    width: 500px;
+    font-size: 30px; 
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3rem;
+    margin-left: 25rem;
+}
+
+#sub-heading p{
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    width: 900px;
+    margin-top: 3rem;
+}
+
+
+#Portfolio_overskrift{
+    margin-top: 1rem;
+
+}
+
+
+main {
+    padding: 20px;
+    grid-area: main;
+
+}
+
+body#index-page main {
+    margin-top: 800px;
+}
+
+body#Portfolio-page main{
+    margin-top: 100px;
+}
+
+
+.separator1, .separator2, .separator3, .separator4 {
+    display: block;
+    height: 3px;
+    background-color: #e6bd43;
+    width: 75rem;
+    margin-left: 1.6rem;
+}
+
+#Explore{
+    font-size: 40px;
+    margin-top:1rem;
+}
+
+#Branding{
+    font-size: 40px;
+}
+
+#Branding_img{
+    display: flex;
+    margin-top: 1rem;
+}
+
+#Branding_section h2 {
+    margin-left: 1.4rem;
+    font-size: 2.5rem;
+    position: relative;
+    top: 1.6rem;
+    margin-top: 5rem;
+  }
+
+#Default_img1, #Default_img2, #Default_img3, #Default_img4, #Default_img5, #Default_img6  {
+    width: 383px;
+    height: 383px;
+    margin-top: 1rem;
+
+} 
+
+
+
+#img_text_1{
+    position: absolute;
+    top: 82rem;
+    left: -0.3rem;
+}
+
+#img_text_2{
+    position: absolute;
+    top: 82rem;
+    left: 25.6rem;
+}
+
+#img_text_3{
+    position: absolute;
+    top: 82rem;
+    left: 51rem;
+}
+
+#img_text_4{
+    position: absolute;
+    left: -0.3rem;
+    top: 124.6rem;
+}
+
+#img_text_5{
+    position: absolute;
+    top: 158.2rem;
+    left: -0.3rem;
+}
+
+#img_text_6{
+    position: absolute;
+    top: 158.1rem;
+    left: 25.6rem;
+}
+
+#img_text_7{
+    position: absolute;
+    top: 158.2rem;
+    left: 51.5rem;
+}
+
+#img_text_8{
+    margin-left: 1.5rem;
+    margin-top: 0.7rem;
+  }
+
+#img_text_9{
+    position: absolute;
+    top: 204.5rem;
+    left: 38.3rem;
+}
+
+#Default_img1 {
+    margin-left: 1.6rem;
+}
+
+#Default_img2 {
+    margin-left: 1.6rem;
+}
+
+#Default_img3{
+    margin-left: 1.6rem;
+}
+
+#Default_img4{
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+}
+
+#Default_img5{
+    margin-left: 1.6rem;
+}
+
+#Default_img6{
+    margin-left: 1.6rem;
+}
+
+#Development_section h2 {
+    margin-left: 4.2rem;
+    top: 1rem;
+    position: relative;
+    left: -2.6rem;
+}
+
+#Large_img1, #Large_img2, #Large_img3{
+    width: 36.5rem;
+    height: auto;
+}
+
+#Large_img1 {
+    margin-left: 1.6rem;
+    margin-top: 6rem;
+}
+
+#Large_img2{
+    margin-left: 1.6rem;
+    margin-top: 2rem;
+}
+
+#Large_img3{
+    margin-left: 40rem;
+    position: relative;
+    top: -43.2rem;
+}
+
+
+#About_our_Company{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 31.4rem;
+    margin-top: 42rem
+
+}
+
+#Default_img_1{
+    width: 25rem;
+    height: auto;
+    margin-top: 2.7rem;
+
+}
+
+#About_our_Company h2{
+    font-size: 20px;
+    margin-top: -21rem;
+    margin-left: 30rem;
+
+}
+
+#About_our_Company p{
+    width: 700px;
+    padding: 20px;
+    text-align: justify;
+    margin-left: 28.7rem;
+    margin-top: -1.3rem;
+}
+
+
+
+#Our_services h2 {
+    text-align: center;
+    margin-top: -12rem;
+    margin-left: 25.5rem;
+    width: 400px;
+    font-size: 40px;
+}
     
 
 
-    #Read_more_us{
-        display: inline-block;
-        color: black;
-        text-decoration: none;
-        font-weight: bold;
-        border: 2px solid black; 
-        padding: 10px 20px;
-        margin-left: 30rem;
-        margin-top: -1.3rem;
-    }
-
-    #Read_more_services{
-    margin-top: 25px; 
-    }
-
-    #Get_in_touch:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Get_in_touch:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Read_more_services:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Read_more_us:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Sign_up_button:hover{
-        background-color: #252525;
-        color: #e6bd43;
-    }
-
-    #Our_services {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 20px;
-        font-size: 2em;
-        margin-top: 1rem;
-
-    }
+#Our_services h3 {
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -118px;        
+}
 
 
-    #Our_services h2{
-        margin-left: 26rem;
-    }
-   
 
-    #Our_services #Ikoner {
-        margin-left: 1rem;
-        font-size: 2rem;
-        margin-top: 1rem;
-    }
+#Branding2 {
+    margin-left: 9rem;
+    margin-top: 11rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+  }
 
-    #Our_services h3{
-        margin-top: 4rem;
-        margin-left: -6.6rem;
-    }
+  #Branding2{
+    margin-left: 9rem;
+    margin-top: 11rem;
+}
 
-    #Our_services p{
-        margin-left: -12rem;
-        margin-top: 6rem;
-    }
+#Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
+    font-size: 2.2rem;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    width: 5rem;
+}
 
-    body #index-page #username {
-        border: none;
-        width: 169.7px;
-        height: 34px;
-        position: relative;
-        top: 0.5rem;
-        }
+#Ikoner2_1{
+    margin-top: 5rem;
+}
 
+#Ikoner2_2{
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
 
-    #Sign_up_button {
-       position: relative;
-        height: 17px;
-        right: 0.1rem;
-        top: 0.4rem;
-    }
+#Ikoner2_3{
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
 
-    #Sign_up {
-        position: absolute;
-        box-sizing: border-box;
-        background-color: #e2e2e2;
-        left: 0;
-        right: 0;
-        text-align: center;
-        font-weight: 800;
-        color: #000;
-        height: 12rem;
-        top: 107rem;
-        }
+#Ikoner2_4{
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+
+#Brandingh3_1{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: -57.5rem;
+}
+
+#Brandingh3_2{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: 12rem;
+
+}
+
+#Brandingh3_3{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: 12rem;
+}
+
+#Brandingh3_4{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: 12rem;
+
+}
+
+#Brandingp_text{
+    position: absolute;
+}
+
+#Brandingp_text_1{
+    margin-top: 11rem;
+    width: 15rem;
+    text-align: center;
     
-    #Sign_up, h2{
-        margin-top: 59px;
+}
+
+#Brandingp_text_2{
+    margin-top: -4.2rem;
+    width: 15rem;
+    text-align: center;
+    margin-left: 14rem;
+
+}
+
+#Brandingp_text_3{
+    margin-top: -4.3rem;
+    width: 15rem;
+    text-align: center;
+    margin-left: 32rem;
+}
+
+#Brandingp_text_4{
+    margin-top: -4.2rem;
+    width: 15rem;
+    text-align: center;
+    margin-left: 50rem;
+}
+
+
+
+#in-Branding2 {
+    margin-left: 9rem;
+    margin-top: -10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+#in-Branding2{
+    margin-left: 4rem;
+    margin-top: -13rem;
+}
+
+#in-Ikoner2_1, #in-Ikoner2_2, #in-Ikoner2_3, #in-Ikoner2_4{
+    font-size: 2.2rem;
+    margin-left: 2.3rem;
+    margin-top: 3rem;
+    margin-bottom: 8rem;
+    width: 5rem;
+}
+
+#in-Ikoner2_1{
+    margin-top: 5rem;
+}
+
+#in-Ikoner2_2{
+    margin-top: 5rem;
+    margin-left: 10rem;
+}
+
+#in-Ikoner2_3{
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+
+#in-Ikoner2_4{
+    margin-top: 5rem;
+    margin-left: 15rem;
+}
+
+#in-Brandingh3_1{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 6rem;
+}
+
+#in-Brandingh3_2{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: 12rem;
+    position: absolute;
+    left: 28.3rem;
+}
+
+#in-Brandingh3_3{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: 12rem;
+    position: absolute;
+
+}
+
+#in-Brandingh3_4{
+    margin-top: 8.5rem;
+    font-size: 1.3rem;
+    margin-left: 12rem;
+    position: absolute;
+
+}
+
+#in-Brandingp_text{
+    position: absolute;
+}
+
+#in-Brandingp_text_1{
+    margin-top: 11rem;
+    width: 15rem;
+    text-align: center;
+}
+
+#in-Brandingp_text_2{
+    margin-top: -4.2rem;
+    width: 15rem;
+    text-align: center;
+    margin-left: 14rem;
+
+}
+
+#in-Brandingp_text_3{
+    margin-top: -4.3rem;
+    width: 15rem;
+    text-align: center;
+    margin-left: 32rem;
+}
+
+#in-Brandingp_text_4{
+    margin-top: -4.2rem;
+    width: 15rem;
+    text-align: center;
+    margin-left: 50rem;
+}
+
+#Client_logos{
+    position: absolute;
+    top: 13rem;
+    left: 0;
+    right: 0;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 24rem;
+    margin-top: 55rem;
+    
+}
+
+#Client_logos h2{
+    margin-left: 4.2rem;
+    margin-top: 2.5rem;
+    margin-left: 27rem;
+    font-size: 2rem;
+}
+
+#Client_Logo1, #Client_Logo2, #Client_Logo3{
+    width: 9rem; 
+    height: 9rem;
+    margin-top: 5rem;
+
+}
+
+#Client_Logo1{
+    margin-left: 21rem;
+}
+
+#Client_Logo2{
+}
+
+#Client_Logo3{
+    margin-left: 3.2rem;
+    margin-top: 3rem;
+}
+
+#Contact_us {
+    margin-top: 30rem;
+    margin-left: 32rem;
+    font-size: 2rem;
+    width: 15rem;
+}
+
+#Contact_us_pack h3{
+    font-size: 1rem;
+    margin-top: 4.5rem;
+    margin-left: 15rem;
+    width: 11rem;
+}
+
+#Contact-del1{
+    margin-left: 15rem;
+    
+}
+
+
+body #About-page #username {
+    border: none;
+    width: 169.7px;
+    height: 34px;
+    position: relative;
+    top: 0.5rem;
+}
+
+#Send_message{
+    width: 7rem;
+}
+
+#Contact-del2 {
+    position: relative;
+    left: 38.6rem;
+    top: -32.4rem;
+}
+
+#Content_info {
+    position: absolute;
+    top: 98rem;
+    left: 26.6rem;
+}
+
+#info-text-content {
+    position: relative;
+    width: 33rem;
+    left: 38.5rem;
+    top: -32.3rem;
+}
+
+
+#Our_services  p{
+    width: 300px;
+    margin-left: -186px;
+    margin-top: 80px;
+}
+
+#Explore {
+    margin-top: 6rem;
+    margin-left: 1.4rem;
+}
+
+
+#List_of_Jobs a{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    border: 1px solid #000;
+    font-size: 22px;
+    padding: 6px;
+    margin-right: 8px; 
+    left: -2.6rem;
+    top: 4rem;
+}
+
+#Design_section h2 {
+    position: relative;
+    left: -2.6rem;
+    top: 1rem;
+}
+
+
+#sub-heading,
+#About_our_Company,
+#Our_services,
+#Sign_up {
+    margin-bottom: 20px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000;
+}
+
+
+#Default_img {
+    max-width: 100%;
+}
+
+#Read_more_us,
+#Read_more_services,
+#Get_in_touch,
+#Send_message,
+#Sign_up_button {
+    display: inline-block;
+    background-color: #e6bd43;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: 800;
+    color: #000;
+}
+
+
+
+#Read_more_us{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid black; 
+    padding: 10px 20px;
+    margin-left: 30rem;
+    margin-top: -1.3rem;
+}
+
+#Read_more_services{
+margin-top: 25px; 
+}
+
+#Get_in_touch:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
+#Get_in_touch:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
+#Read_more_services:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
+#Read_more_us:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
+#Sign_up_button:hover{
+    background-color: #252525;
+    color: #e6bd43;
+}
+
+#Our_services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    font-size: 2em;
+    margin-top: 1rem;
+
+}
+
+
+#Our_services h2{
+    margin-left: 26rem;
+}
+
+
+#Our_services #Ikoner {
+    margin-left: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#Our_services h3{
+    margin-top: 4rem;
+    margin-left: -6.6rem;
+}
+
+#Our_services p{
+    margin-left: -12rem;
+    margin-top: 6rem;
+}
+
+body #index-page #username {
+    border: none;
+    width: 169.7px;
+    height: 34px;
+    position: relative;
+    top: 0.5rem;
     }
 
-    
-    footer {
-        background-color: #333;
-        color: #ffffff;
-        padding: 20px;
-        text-align: center;
-        grid-area: footer;
-        margin-top: 250px;
-        height: 7rem;
-    }
-    
-    .SOME{
-        display: flex;
-        margin-left: 71rem; 
-        font-size: 20px;
-        margin-top: -2.3rem;
-    }
-    
-    footer p {
-        color: #fff;
-        margin-top: 3rem;
-    }
-    
-    .Logo1_footer {
-        max-width: 100px; 
-        margin-bottom: 20px;
-        position: absolute;
-        left: 1rem;
+
+#Sign_up_button {
+   position: relative;
+    height: 17px;
+    right: 0.1rem;
+    top: 0.4rem;
+}
+
+#Sign_up {
+    position: absolute;
+    box-sizing: border-box;
+    background-color: #e2e2e2;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-weight: 800;
+    color: #000;
+    height: 12rem;
+    top: 107rem;
     }
 
-    
-    
-    .SOME a {
-        color: #fff;
-        margin: 0 10px;
-        text-decoration: none;
-    }
-    
-    .Snarvei {
-        position: fixed;
-        bottom: 20px;
-        right: 20px;
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        text-decoration: none;
-        border-radius: 5px;
-    }
-    
-    .Snarvei i {
-        font-size: 1.5em;
-    }
-    
+#Sign_up, h2{
+    margin-top: 59px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    grid-area: footer;
+    margin-top: 250px;
+    height: 7rem;
+}
+
+
+
+.SOME{
+    display: flex;
+    margin-left: 71rem; 
+    font-size: 20px;
+    margin-top: -2.3rem;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.Logo1_footer {
+    max-width: 100px; 
+    margin-bottom: 20px;
+    position: absolute;
+    left: 1rem;
+}
+
+
+
+.SOME a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.Snarvei {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.Snarvei i {
+    font-size: 1.5em;
+}
+
 }
