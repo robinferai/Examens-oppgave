@@ -251,7 +251,7 @@ margin-left: 2rem;
 
 
 .video-container {
-    position: absolute; /* Chat GPT */
+    position: absolute; 
     left: 0;
     width: 100%;
     height: 100%;
@@ -260,8 +260,8 @@ margin-left: 2rem;
 }
   
 video {
-    width: 100vw; /* Stretch the video to the full viewport width */
-    height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+    width: 100vw; 
+    height: 24rem; 
     object-fit: cover;
 
 }
@@ -643,18 +643,11 @@ body#index-page #username{
       
 
 #Kart {
-    width: 100vw; /* Stretch the video to the full viewport width */
-    height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
-    object-fit: cover;
+    width: 100%;
+    max-width: 100vw;
   }
   
-.Kart-container {
-    position: relative; /* Chat GPT */
-    top: -2rem;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
+
 
 #About_our_Company{
     position: absolute;
@@ -824,7 +817,7 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-areas: "meny" "header" "sub-header" "main" "footer"; /* Menu, Header, Main, Footer */
+    grid-template-areas: "meny" "header" "sub-header" "main" "footer"; 
     grid-template-rows: auto auto 1fr auto;
     min-height: 100vh;
 }
@@ -861,7 +854,7 @@ p {
 }
 
 .meny img {
-    max-width: 100px; /* Adjust as needed */
+    max-width: 100px; 
     margin-top: -1.5rem;
     margin-left: 1rem;
 }
@@ -897,7 +890,7 @@ nav ul li {
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underline */
+    text-decoration: none; 
     color: black;
 }
 
@@ -910,7 +903,7 @@ header {
 }
 
 .video-container {
-    position: absolute; /* Chat GPT */
+    position: absolute; 
     top: 9rem;
     left: 0;
     width: 100%;
@@ -919,8 +912,8 @@ header {
   }
   
 video {
-    width: 100vw; /* Stretch the video to the full viewport width */
-    height: 24rem; /* Subtract 40px from the height to leave a 20px margin on top and bottom */
+    width: 100vw; 
+    height: 24rem;
     object-fit: cover;
 }
 
@@ -976,11 +969,11 @@ header h1 {
   
 
   #About-page .long_img {
-    position: absolute; /* Chat GPT */
+    position: absolute; 
     top: 9rem;
     left: 0;
     width: 100%;
-    height: 33rem; /* Adjust this value as needed */
+    height: 33rem; 
     z-index: -1; 
 }
 
@@ -1713,8 +1706,13 @@ body #index-page #username {
 }
 
 #Kart {
-    width: 100%;
-  }
+    width: 100vw;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
   
   
 
