@@ -619,7 +619,7 @@ body#index-page #username{
     margin-top: 4.5rem;
 }
 
-.Ikoner3_1, .Ikoner3_2, .Ikoner3_3{
+.Ikoner3_1 .Ikoner3_2 .Ikoner3_3{
     display: flex;
     position: relative;
     margin-bottom: 0.8rem;
@@ -1716,19 +1716,7 @@ body #index-page #username {
     width: 100%;
   }
   
-  .Kart-container {
-    position: absolute;
-    padding-bottom: 56.25%; /* Denne verdien er for å opprettholde et 16:9 sideforhold på iframe. Du kan endre dette etter behov. */
-    height: 0;
-  }
   
-  .Kart-container iframe {
-    position: absolute;
-    top: 143rem;
-    left: 0;
-    width: 100%;
-    height: 24rem;
-  }
 
 
 footer {
