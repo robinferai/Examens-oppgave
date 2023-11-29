@@ -326,72 +326,99 @@ body#About-page main{
     Left: -1.5rem;
 }
 
-#Branding2{
+#in-Branding2{
     margin-left: 9rem;
     margin-top: 11rem;
 }
 
-#Ikoner2_1, #Ikoner2_2, #Ikoner2_3, #Ikoner2_4{
+#in-Ikoner2_1, #in-Ikoner2_2, #in-Ikoner2_3, #in-Ikoner2_4{
     font-size: 2rem;
-    margin-left: 2.3rem;
-    margin-top: 3rem;
-    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
     width: 5rem;
 }
 
-.Brandingh3{
-    margin-left: 1rem;
-    margin-top: -17.4rem;
+#in-Ikoner2_1{
+    position: absolute;
+    top: 132rem;
+    left: 11.3rem;
 }
 
-#Brandingh3_1{
-    margin-top: -46rem;
-    margin-left: 0.9rem;
+
+#in-Ikoner2_2{
+    position: absolute;
+    left: 11.3rem;
+    top: 141rem;
 }
 
-#Brandingh3_2{
-    margin-top: 11.3rem;
-    margin-left: 0.9rem;
+#in-Ikoner2_3{
+    position: absolute;
+    left: 11.3rem;
+    top: 150.4rem;
 }
 
-#Brandingh3_3{
-    margin-left: 0.9rem;
-    margin-top: 11.6rem;
+#in-Ikoner2_4{
+    position: absolute;
+    left: 11.3rem;
+    top: 161rem;
 }
 
-#Brandingh3_4{
-    margin-top: 11.5rem;
-    margin-left: 0.9rem;
+
+
+#in-Brandingh3_1{
+    width: 13rem;
+    position: relative;
+    top: -6.4rem;
+    left: 1rem;
 }
 
-#Brandingp_text_1{
-    margin-top: -39rem;
+#in-Brandingh3_2{
+    width: 13rem;
+    position: relative;
+    top: -0.3rem;
+    left: 1rem;
+}
+
+#in-Brandingh3_3{
+    width: 13rem;
+    position: relative;
+    top: 6.4rem;
+    left: 1rem;
+}
+
+#in-Brandingh3_4{
+    width: 13rem;
+    position: relative;
+    top: 14rem;
+    left: 1rem;
+}
+
+#in-Brandingp_text_1{
     width: 13rem;
     text-align: center;
-    margin-left: -3rem;
+    margin-top: -15.6rem;
+    margin-left: -0.4rem;
 }
 
-#Brandingp_text_2{
-    margin-top: 10rem;
-    width: 13rem;
-    text-align: center;
-    margin-left: -3rem;
+#in-Brandingp_text_2{
+    margin-top: 6.3rem;
+  width: 13rem;
+  text-align: center;
+  margin-left: -0.4rem;
 }
 
-#Brandingp_text_3{
-    margin-top: 10.5rem;
-    width: 13rem;
-    text-align: center;
-    margin-left: -3rem;
-}
-#Brandingp_text_4{
-    margin-top: 10.4rem;
-    width: 13rem;
-    text-align: center;
-    margin-left: -3rem;
+#in-Brandingp_text_3{
+    margin-top: 6.8rem;
 }
 
-.Brandingp_text{
+#in-Brandingp_text_4{
+    margin-top: 7.6rem;
+  width: 13rem;
+  text-align: center;
+  margin-left: -0.4rem;
+}
+
+#in-Brandingp_text{
     width: 13rem;
     margin-left: -2.4rem;
 }
@@ -606,6 +633,7 @@ body#index-page #username{
     height: 12rem;
 }
 
+
 #Sign_up, h2{
     margin-top: 59px;
 }
@@ -633,7 +661,7 @@ body#index-page footer {
     padding: 20px;
     text-align: center;
     grid-area: footer;
-    margin-top: 250px;
+    margin-top: 15.4rem;
     height: 15rem;
 }
 
